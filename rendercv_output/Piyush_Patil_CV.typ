@@ -465,7 +465,7 @@
 
 
 #one-col-entry(
-  content: [Value-driven, 3.5+ years experienced SDET with expertise in automation, performance testing, and CI\/CD, leveraging Python, Pytest, Selenium, and Locust. Proven track record in mentoring individuals, optimising and automating processes and test planning for high-quality software deliveries.]
+  content: [SDET with 3+ years of experience in web and API automation, performance testing, and CI\/CD integration. Skilled in Selenium \(PyTest\), Playwright, Postman\/Newman, and Locust. Proven ability to develop and maintain automation frameworks, integrate tests into GitHub Actions, and collaborate cross-functionally to drive quality.]
 )
 
 
@@ -473,23 +473,27 @@
 
 
 #one-col-entry(
-  content: [#strong[Technical:] Python, Java, JavaScript, TypeScript, Shell, Selenium, Playwright, Cucumber, Pytest, Locust, Postman, SQL, Flask, CSS, Linux, AWS, Jenkins, Bitbucket, GitHub, New Relic, CI\/CD Pipelines, JIRA]
+  content: [#strong[Languages:] Python, Java, JavaScript, TypeScript, Bash, YAML]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Other:] Test Design, API Testing, Performance\/Load Testing, Defect Management, Requirement Analysis, Version Control, Agile Methodologies]
-)
-
-
-== Achievements
-
-
-#one-col-entry(
-  content: [#strong[Certifications:] #link("https://drive.google.com/file/d/180s6g84Bau-5lT2RkMMR_a1YI9fo73N7")[PSM I - Scrum.org], #link("https://cs50.harvard.edu/certificates/2b3b7fcc-0bc8-4cdc-bb0e-866a3fcebe3d")[CS50x - Harvard], #link("https://drive.google.com/file/d/1DEyI18ejwoJ-Wz-GN2QmtdLTU3OH4Ywg")[Automation Practitioner - Capgemini]]
+  content: [#strong[Automation:] Selenium \[Pytest, Opentest\], Playwright, Postman Newman, Locust, Cucumber]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Awards:] #link("https://drive.google.com/file/d/180s6g84Bau-5lT2RkMMR_a1YI9fo73N7")[Rising Star], #link("https://drive.google.com/file/d/1W6SL_C_zsko1xfvirofnwgatszNUnGTm")[Value Innovation], #link("https://drive.google.com/file/d/1k23XbBC4Z9jiJmKET2Sl510VWVrSG9kO")[Meritorious Performance]]
+  content: [#strong[Tools\/Platforms:] POSTMAN, NewRelic, Jira, Confluence, SwaggerHub, VSCode\/PyCharm\/Intellij]
+)
+#v(design-entries-vertical-space-between-entries)
+#one-col-entry(
+  content: [#strong[Version Control:] Git\/GitHub, BitBucket]
+)
+#v(design-entries-vertical-space-between-entries)
+#one-col-entry(
+  content: [#strong[Devops & CICD:] GitHub Actions, Jenkins, Kubernetes\(EKS\), AWS]
+)
+#v(design-entries-vertical-space-between-entries)
+#one-col-entry(
+  content: [#strong[Other:] Web Automation, API Testing, Performance\/Load Testing, Test Design, Defect Management, Requirement Analysis, Version Control, Agile Methodologies]
 )
 
 
@@ -505,63 +509,29 @@
   right-content: [
     #emph[Pune, IN]
 
-#emph[Feb 2024 – present]
+#emph[May 2021 – present]
   ],
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Leading performance testing efforts for a global enterprise web application, developing and executing tests with Locust, analyzing and publishing performance insights.],[Automating end-to-end test cases for regression and functional testing using JavaScript and Selenium.],[Developed and optimized SQL queries for validating test data and performing backend validations in test scripts.],[Creating reusable macros, functions and generic locators, reducing script development time.],[Overseeing version control, reviewing, and merging pull requests for load test scripts ensuring high-quality code.],[Mentored new hires for load test scripting in Locust.],[Built an automated UI testing suite for mobile apps using Selenium, reducing manual testing efforts by 70\%.],)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Enterprise Application \[Restaurant Retail Info Management\]- Greenfield Project])], column-gutter: 0cm)
+
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Collaborated directly with stakeholders to define testing strategies and wrote user stories in absence of a BA to ensure proper sprint planning.],[Designed and implemented API test cases using Postman, automated execution with Newman, and developed a custom Python script for parallel execution with dynamic environment handling.],[Integrated API testing workflows into GitHub Actions CI\/CD pipeline, with HTML\/JSON reporting and failure-triggered email notifications.],[Led tool evaluation for UI automation \(Playwright vs Cypress\), chose Playwright, developed E2E test scripts, and integrated them into CI\/CD.],[Built and executed performance tests using Locust with AWS-based distributed load generation; automated via Argo CD for scalable testing.],[Monitored app performance with New Relic, analyzed infrastructure metrics, and reported insights and bottlenecks to key stakeholders.],)
   ],
 )
 
 #v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #strong[Senior SDET]
 
-#emph[Capgemini]
-  ],
-  right-content: [
-    #emph[Feb 2023 – Jan 2024]
-  ],
-)
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Developed and executed end-to-end load test scripts along with Rest API tests using Locust with Python, using AWS for load generation and Argo CD for automated workflows.],[Monitored infrastructure metrics using New Relic and analyzed response times to report performance insights and bottlenecks to stakeholders.],[Developed a custom VSCode linter extension with TypeScript and NodeJS for our framework to detect script bugs early, reducing debugging time.],[Executed end-to-end tests for migration from legacy to microservices.],)
-  ],
-)
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #strong[SDET]
+    #strong[ ]
 
 #emph[Capgemini]
-  ],
-  right-content: [
-    #emph[Feb 2022 – Jan 2023]
-  ],
-)
-#one-col-entry(
-  content: [
-    #v(design-highlights-top-margin);#highlights([Developed test strategies for major releases, documenting test cases for new feature impacts in an Agile environment.],[Improved QA environment management by automating ticket creation for build upgrades, reducing manual efforts.],[Mentored new hires on product features, test automation, and QA processes, accelerating onboarding and productivity.],[Played a key role in bug identification, creating test execution and defect dashboards in JIRA for major releases.],)
-  ],
-)
 
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #strong[SDET Trainee]
+    #v(-design-text-leading)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Enterprise Application \[Restaurant File Management\]])], column-gutter: 0cm)
 
-#emph[Capgemini]
-  ],
-  right-content: [
-    #emph[Aug 2021 – Jan 2022]
-  ],
-)
-#one-col-entry(
-  content: [
-    #v(design-highlights-top-margin);#highlights([Trained in web development, Core Java, Selenium, Cucumber and Agile practices for functional and automation testing.],[Hands-on training and contribution for a client in test planning, design, documentation and execution.],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Developed and maintained robust web automation scripts using Selenium with the OpenTest framework in an Agile environment.],[Designed and executed mixed-load performance testing using Locust \(Python\) to simulate realistic traffic patterns and assess system stability.],[Created test strategies and documentation for major releases, including regression impact analysis for new features.],[Played a key role in identifying critical bugs and created real-time test execution and defect dashboards in JIRA.],[Reviewed and merged pull requests for load testing scripts and mentored new hires on QA processes, tools, and product features.],)
   ],
 )
 
@@ -573,20 +543,20 @@
 // YES DATE, NO DEGREE
 #two-col-entry(
   left-content: [
-    #strong[Institute of Infrastructure, Technology, Research and Management \(Gov. of Gujarat\)]
+    #strong[SKN Sinhagad Institute of Technology and Science]
 
-#emph[B. Tech. in Electrical Engineering]
+#emph[B. Tech. in Mechanical Engineering]
   ],
   right-content: [
-    #emph[Ahmedabad, IN]
+    #emph[Pune, IN]
 
-#emph[Aug 2017 – May 2021]
+#emph[Aug 2016 – May 2020]
   ],
 )
 #block(
   [
     #set par(spacing: 0pt)
-    #v(design-highlights-top-margin);#highlights([Electives: Computer Networks, Defence Technologies \(DRDO\), Geographic Information Systems \(GIS\), Swarm Robotics],[Other Courses: #link("https://drive.google.com/file/d/1FRFdLXAqWD-li6U3d50mTjREqwUChMOz")[Basic Principes of Remote Sensing \(ISRO\)], #link("https://drive.google.com/file/d/1Nvyi28Ulh_5Sv2SdswtMBugCnsJ4ExuU")[Siemens NX]],)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [CGPA - 8.33])], column-gutter: 0cm)
   ],
   inset: (
     left: design-entries-left-and-right-margin,
@@ -594,5 +564,13 @@
   ),
 )
 
+
+
+== Achievements
+
+
+#one-col-entry(
+  content: [#strong[Certifications:] #link("https://drive.google.com/file/d/1YBgERJLMjptMqPFFC1ljwKDounLrExY5/view?usp=drive_link")[PSM I - Scrum.org], #link("https://www.udemy.com/certificate/UC-8a1719a3-edb2-4db6-a990-210615d9f3aa/")[ Selenium Webdriver with PYTHON from Scratch + Frameworks]]
+)
 
 
