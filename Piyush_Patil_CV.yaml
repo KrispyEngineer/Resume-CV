@@ -11,18 +11,16 @@ cv:
       username: KrispyEngineer
   sections:
     Summary: 
-      - "SDET with 3+ years of experience in web and API automation, performance testing, and CI/CD integration. Skilled in Selenium (PyTest), Playwright, Postman/Newman, and Locust. Proven ability to develop and maintain automation frameworks, integrate tests into GitHub Actions, and collaborate cross-functionally to drive quality."
+      - "QA Automation Engineer with 3+ years of experience in web and API test automation, performance testing, and CI/CD workflows. Proficient in Python and Pytest, with strong skills in test framework development, debugging, and cross-functional collaboration. Experienced in testing backend services, building test strategies, and ensuring software quality in Agile environments."
     skills:
       - label: Languages
-        details: Python, Java, JavaScript, TypeScript, Bash, YAML.
-      - label: Automation        
-        details: Selenium [Pytest, Opentest], Playwright, Postman Newman, Locust, Cucumber.
-      - label: Tools/Platforms
-        details: POSTMAN, NewRelic, Jira, Confluence, SwaggerHub, VSCode/PyCharm/Intellij.
-      - label: Version Control
-        details: Git/GitHub, BitBucket.
+        details: Python, Java.
+      - label: Frameworks
+        details: Pytest, OpenTest, Locust
+      - label: Scripting & OS
+        details: Bash, Linux (Ubuntu, Amazon Linux)
       - label: Devops & CICD
-        details: GitHub Actions, Jenkins, Kubernetes(EKS), AWS.
+        details: Git/GitHub, BitBucket, GitHub Actions
       - label: Other
         details: Web Automation, API Testing, Performance/Load Testing, Test Design, Defect Management, Requirement Analysis, Version Control, Agile Methodologies.
     experience:
@@ -34,12 +32,9 @@ cv:
         location: Pune, IN
         summary: Enterprise Application [Restaurant Retail Info Management]- Greenfield Project
         highlights:
-          - Collaborated directly with stakeholders to define testing strategies and wrote user stories in absence of a BA to ensure proper sprint planning.
-          - Designed and implemented API test cases using Postman, automated execution with Newman, and developed a custom Python script for parallel execution with dynamic environment handling.
-          - Integrated API testing workflows into GitHub Actions CI/CD pipeline, with HTML/JSON reporting and failure-triggered email notifications.
-          - Led tool evaluation for UI automation (Playwright vs Cypress), chose Playwright, developed E2E test scripts, and integrated them into CI/CD.
-          - Built and executed performance tests using Locust with AWS-based distributed load generation; automated via Argo CD for scalable testing.
-          - Monitored app performance with New Relic, analyzed infrastructure metrics, and reported insights and bottlenecks to key stakeholders.
+          - Developed reusable API test suites in Postman and automated them using Python-Newman scripts with parallel execution logic and dynamic environment handling.
+          - Integrated Pytest-based and Playwright test frameworks into CI/CD using GitHub Actions, with failure reporting via email and test artifacts in GitHub.
+          - Conducted performance testing using Locust and Python, simulating distributed traffic from AWS, automated via Argo CD pipelines.
 
       - company: Capgemini
         position: " "
@@ -48,11 +43,10 @@ cv:
         end_date:   
         summary: Enterprise Application [Restaurant File Management]
         highlights:
-          - Developed and maintained robust web automation scripts using Selenium with the OpenTest framework in an Agile environment.
-          - Designed and executed mixed-load performance testing using Locust (Python) to simulate realistic traffic patterns and assess system stability.
-          - Created test strategies and documentation for major releases, including regression impact analysis for new features.
-          - Played a key role in identifying critical bugs and created real-time test execution and defect dashboards in JIRA.
-          - Reviewed and merged pull requests for load testing scripts and mentored new hires on QA processes, tools, and product features.
+          - Developed and maintained test automation scripts using Selenium and OpenTest with Python in an Agile environment.
+          - Designed and executed performance test plans using Locust, ensuring backend service reliability under mixed-load conditions.
+          - Authored and managed test strategies, regression plans, and defect tracking dashboards using JIRA and Confluence.
+          - Mentored new QA engineers and conducted code reviews for automation and load testing scripts.
 
     education:
       - institution: SKN Sinhagad Institute of Technology and Science
@@ -66,6 +60,8 @@ cv:
         highlights:
 
     Achievements:
+      - label: Tools
+        details: Experience with Pytest, JIRA, Git, Bitbucket, GitHub Actions, New Relic, and Postman for automation and defect management.  
       - label: Certifications
         details: '[PSM I - Scrum.org](https://drive.google.com/file/d/1YBgERJLMjptMqPFFC1ljwKDounLrExY5/view?usp=drive_link), [ Selenium Webdriver with PYTHON from Scratch + Frameworks](https://www.udemy.com/certificate/UC-8a1719a3-edb2-4db6-a990-210615d9f3aa/)'
     
@@ -120,7 +116,7 @@ cv:
     #   - reversed_number: This is the third reversed numbered entry.
 
 design:
-  theme: sb2nov
+  theme: engineeringresumes
   page:
     size: us-letter
     top_margin: 1cm
@@ -137,8 +133,8 @@ design:
     links: rgb(0, 79, 144)
     last_updated_date_and_page_numbering: rgb(128, 128, 128)
   text:
-    font_family: New Computer Modern
-    font_size: 10pt
+    font_family: EB Garamond
+    font_size: 12pt
     leading: 0.6em
     alignment: justified
     date_and_location_column_alignment: right
@@ -146,7 +142,7 @@ design:
     underline: false
     use_external_link_icon: false
   header:
-    name_font_family: New Computer Modern
+    name_font_family: EB Garamond
     name_font_size: 30pt
     name_bold: true
     photo_width: 3.5cm

@@ -22,14 +22,14 @@
 #let design-section-titles-vertical-space-below = 0.3cm
 #let design-section-titles-small-caps = false
 #let design-links-use-external-link-icon = false
-#let design-text-font-size = 10pt
+#let design-text-font-size = 12pt
 #let design-text-leading = 0.6em
-#let design-text-font-family = "New Computer Modern"
+#let design-text-font-family = "EB Garamond"
 #let design-text-alignment = "justified"
 #let design-text-date-and-location-column-alignment = right
 #let design-header-photo-width = 3.5cm
 #let design-header-use-icons-for-connections = true
-#let design-header-name-font-family = "New Computer Modern"
+#let design-header-name-font-family = "EB Garamond"
 #let design-header-name-font-size = 30pt
 #let design-header-name-bold = true
 #let design-header-connections-font-family = "New Computer Modern"
@@ -465,7 +465,7 @@
 
 
 #one-col-entry(
-  content: [SDET with 3+ years of experience in web and API automation, performance testing, and CI\/CD integration. Skilled in Selenium \(PyTest\), Playwright, Postman\/Newman, and Locust. Proven ability to develop and maintain automation frameworks, integrate tests into GitHub Actions, and collaborate cross-functionally to drive quality.]
+  content: [QA Automation Engineer with 3+ years of experience in web and API test automation, performance testing, and CI\/CD workflows. Proficient in Python and Pytest, with strong skills in test framework development, debugging, and cross-functional collaboration. Experienced in testing backend services, building test strategies, and ensuring software quality in Agile environments.]
 )
 
 
@@ -473,23 +473,19 @@
 
 
 #one-col-entry(
-  content: [#strong[Languages:] Python, Java, JavaScript, TypeScript, Bash, YAML]
+  content: [#strong[Languages:] Python, Java]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Automation:] Selenium \[Pytest, Opentest\], Playwright, Postman Newman, Locust, Cucumber]
+  content: [#strong[Frameworks:] Pytest, OpenTest, Locust]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Tools\/Platforms:] POSTMAN, NewRelic, Jira, Confluence, SwaggerHub, VSCode\/PyCharm\/Intellij]
+  content: [#strong[Scripting & OS:] Bash, Linux \(Ubuntu, Amazon Linux\)]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Version Control:] Git\/GitHub, BitBucket]
-)
-#v(design-entries-vertical-space-between-entries)
-#one-col-entry(
-  content: [#strong[Devops & CICD:] GitHub Actions, Jenkins, Kubernetes\(EKS\), AWS]
+  content: [#strong[Devops & CICD:] Git\/GitHub, BitBucket, GitHub Actions]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
@@ -516,7 +512,7 @@
   content: [
     #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Enterprise Application \[Restaurant Retail Info Management\]- Greenfield Project])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Collaborated directly with stakeholders to define testing strategies and wrote user stories in absence of a BA to ensure proper sprint planning.],[Designed and implemented API test cases using Postman, automated execution with Newman, and developed a custom Python script for parallel execution with dynamic environment handling.],[Integrated API testing workflows into GitHub Actions CI\/CD pipeline, with HTML\/JSON reporting and failure-triggered email notifications.],[Led tool evaluation for UI automation \(Playwright vs Cypress\), chose Playwright, developed E2E test scripts, and integrated them into CI\/CD.],[Built and executed performance tests using Locust with AWS-based distributed load generation; automated via Argo CD for scalable testing.],[Monitored app performance with New Relic, analyzed infrastructure metrics, and reported insights and bottlenecks to key stakeholders.],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Developed reusable API test suites in Postman and automated them using Python-Newman scripts with parallel execution logic and dynamic environment handling.],[Integrated Pytest-based and Playwright test frameworks into CI\/CD using GitHub Actions, with failure reporting via email and test artifacts in GitHub.],[Conducted performance testing using Locust and Python, simulating distributed traffic from AWS, automated via Argo CD pipelines.],)
   ],
 )
 
@@ -531,7 +527,7 @@
     #v(-design-text-leading)
     #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Enterprise Application \[Restaurant File Management\]])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Developed and maintained robust web automation scripts using Selenium with the OpenTest framework in an Agile environment.],[Designed and executed mixed-load performance testing using Locust \(Python\) to simulate realistic traffic patterns and assess system stability.],[Created test strategies and documentation for major releases, including regression impact analysis for new features.],[Played a key role in identifying critical bugs and created real-time test execution and defect dashboards in JIRA.],[Reviewed and merged pull requests for load testing scripts and mentored new hires on QA processes, tools, and product features.],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Developed and maintained test automation scripts using Selenium and OpenTest with Python in an Agile environment.],[Designed and executed performance test plans using Locust, ensuring backend service reliability under mixed-load conditions.],[Authored and managed test strategies, regression plans, and defect tracking dashboards using JIRA and Confluence.],[Mentored new QA engineers and conducted code reviews for automation and load testing scripts.],)
   ],
 )
 
@@ -569,6 +565,10 @@
 == Achievements
 
 
+#one-col-entry(
+  content: [#strong[Tools:] Experience with Pytest, JIRA, Git, Bitbucket, GitHub Actions, New Relic, and Postman for automation and defect management]
+)
+#v(design-entries-vertical-space-between-entries)
 #one-col-entry(
   content: [#strong[Certifications:] #link("https://drive.google.com/file/d/1YBgERJLMjptMqPFFC1ljwKDounLrExY5/view?usp=drive_link")[PSM I - Scrum.org], #link("https://www.udemy.com/certificate/UC-8a1719a3-edb2-4db6-a990-210615d9f3aa/")[ Selenium Webdriver with PYTHON from Scratch + Frameworks]]
 )
