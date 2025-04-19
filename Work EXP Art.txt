@@ -1,0 +1,43 @@
+What All I have done since I have been a part of Restaurant Profile team.
+
+- Actively communicated with stakeholders to understand their requirements on Test Coverage. And their approach of Testing strategy.
+- There was no BTA (Business Analyst) in the team, for testing mostly, we written our own stories and communicated that with the Test Lead and Product Owner to get it involved in the sprints.
+- Written Test Scenarios and Test cases for API Integration testing. 
+- Implemented the test cases into POSTMAN collection for Test Execution.
+- With discussion with Stakeholders, we thought of using POSTMAN NEWMAN as the best option for API Automation.
+- Created a script with Python that could generate Newman Commands and execute, all the collections parallelly using a python library called ThreadPoolExecutor. It creates a pool of workers using multi-threading, stores all the commands with distinct Collection names in it and executes them at once.
+
+- Implemented Report Generation with HTML and JSON report for API Integration testing. Using the JSON reports, did JSON parsing to capture Test Statistics and display in the GitHub Artifacts.
+
+- I also Implemented the logic to handle, Environment selection in the script. 
+
+CICD and DEVOPS.
+- Created a TestAPI.yml workflow in GitHub Actions. This workflow will be triggered from Deploy-dev-us and Depoy-qa-us workflows every time there is a PR merge and deployment occurs.
+- Implemented Email Notifications for test failures in CICD Pipeline.
+
+End-to-End Testing UI and Web Automation
+
+- Created Test scenarios and Test Plan for End to End testing. 
+- Using Playwright
+- Did a POC on PlayWright and Cypress and chose PlayWright over Cypress due to its limitations of Window Handling.
+- Developed test scripts in Playwright.
+- Integrated Playwright end to end framework into CICD pipeline. Similar to API Integration. 
+
+
+Performance Testing
+
+- Developed and executed end-to-end load test scripts along with Rest API tests using Locust with Python, using AWS for Distributed load generation and Argo CD for automated workflows.
+- Monitored infrastructure metrics using New Relic and analyzed response times to report performance insights and bottlenecks to stakeholders.
+
+
+
+Work I did while working in RFM2 
+- Developed and Maintained web-automation test scripts using Selenium and OpenTest Framework.
+- Developed and Executed Mixed Load Performance testing using Locust and Python.
+- Developed test strategies for major releases, documenting test cases for new feature impacts in an Agile environment.
+- Played a key role in bug identification, creating test execution and defect dashboards in JIRA for major releases.
+- Executed end-to-end tests for migration from legacy to microservices.
+- Overseeing version control, reviewing, and merging pull requests for load test scripts ensuring high-quality code.
+- Mentored new hires on product features, test automation, and QA processes, accelerating onboarding and productivity.
+
+ 
