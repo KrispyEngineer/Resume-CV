@@ -1,92 +1,4 @@
-cv:
-  name: Piyush Patil
-  location: Pune
-  email: piyushpatil617@gmail.com
-  phone: +91-997-059-6397
-  website:
-  social_networks:
-    - network: LinkedIn
-      username: piyush-patil917
-    - network: GitHub
-      username: KrispyEngineer
-  sections:
-    Summary: 
-      - "Value-driven, 3.5+ years experienced SDET with expertise in automation, performance testing, and CI/CD, leveraging Python, Pytest, Selenium, and Locust. Proven track record in mentoring individuals, optimising and automating processes and test planning for high-quality software deliveries."
-    skills:
-      - label: Technical
-        details: Python, Java, JavaScript, TypeScript, Shell, Selenium, Playwright, Cucumber, Pytest, Locust, Postman, SQL, Flask, CSS, Linux, AWS, Jenkins, Bitbucket, GitHub, New Relic, CI/CD Pipelines, JIRA
-      - label: Other
-        details: Test Design, API Testing, Performance/Load Testing, Defect Management, Requirement Analysis, Version Control, Agile Methodologies
-    Achievements:
-      - label: Certifications
-        details: '[PSM I - Scrum.org](https://drive.google.com/file/d/180s6g84Bau-5lT2RkMMR_a1YI9fo73N7), [CS50x - Harvard](https://cs50.harvard.edu/certificates/2b3b7fcc-0bc8-4cdc-bb0e-866a3fcebe3d), [Automation Practitioner - Capgemini](https://drive.google.com/file/d/1DEyI18ejwoJ-Wz-GN2QmtdLTU3OH4Ywg)'
-      - label: Awards
-        details: '[Rising Star](https://drive.google.com/file/d/180s6g84Bau-5lT2RkMMR_a1YI9fo73N7), [Value Innovation](https://drive.google.com/file/d/1W6SL_C_zsko1xfvirofnwgatszNUnGTm), [Meritorious Performance](https://drive.google.com/file/d/1k23XbBC4Z9jiJmKET2Sl510VWVrSG9kO)'
-    experience:
-      - company: Capgemini
-        position: Associate Consultant
-        date:
-        start_date: 2024-02
-        end_date: present
-        location: Pune, IN
-        summary:
-        highlights:
-          - Leading performance testing efforts for a global enterprise web application, developing and executing tests with Locust, analyzing and publishing performance insights.
-          - Automating end-to-end test cases for regression and functional testing using JavaScript and Selenium.
-          - Developed and optimized SQL queries for validating test data and performing backend validations in test scripts.
-          - Creating reusable macros, functions and generic locators, reducing script development time.
-          - Overseeing version control, reviewing, and merging pull requests for load test scripts ensuring high-quality code.
-          - Mentored new hires for load test scripting in Locust.
-          - Built an automated UI testing suite for mobile apps using Selenium, reducing manual testing efforts by 70%.
 
-      - company: Capgemini
-        position: Senior SDET
-        date:
-        start_date: 2023-02
-        end_date: 2024-01
-        summary:
-        highlights:
-          - Developed and executed end-to-end load test scripts along with Rest API tests using Locust with Python, using AWS for load generation and Argo CD for automated workflows.
-          - Monitored infrastructure metrics using New Relic and analyzed response times to report performance insights and bottlenecks to stakeholders.
-          - Developed a custom VSCode linter extension with TypeScript and NodeJS for our framework to detect script bugs early, reducing debugging time.
-          - Executed end-to-end tests for migration from legacy to microservices.
-
-      - company: Capgemini
-        position: SDET
-        date:
-        start_date: 2022-02
-        end_date: 2023-01
-        location:
-        summary:
-        highlights:
-          - Developed test strategies for major releases, documenting test cases for new feature impacts in an Agile environment.
-          - Improved QA environment management by automating ticket creation for build upgrades, reducing manual efforts.
-          - Mentored new hires on product features, test automation, and QA processes, accelerating onboarding and productivity.
-          - Played a key role in bug identification, creating test execution and defect dashboards in JIRA for major releases.
-      
-      - company: Capgemini
-        position: SDET Trainee
-        date:
-        start_date: 2021-08
-        end_date: 2022-01
-        location:
-        summary:
-        highlights:
-          - Trained in web development, Core Java, Selenium, Cucumber and Agile practices for functional and automation testing.
-          - Hands-on training and contribution for a client in test planning, design, documentation and execution.
-
-    education:
-      - institution: Institute of Infrastructure, Technology, Research and Management (Gov. of Gujarat)
-        area: Electrical Engineering
-        degree: B. Tech.
-        date:
-        start_date: 2017-08
-        end_date: 2021-05
-        location: Ahmedabad, IN
-        summary:
-        highlights:
-          - 'Electives: Computer Networks, Defence Technologies (DRDO), Geographic Information Systems (GIS), Swarm Robotics'
-          - 'Other Courses: [Basic Principes of Remote Sensing (ISRO)](https://drive.google.com/file/d/1FRFdLXAqWD-li6U3d50mTjREqwUChMOz), [Siemens NX](https://drive.google.com/file/d/1Nvyi28Ulh_5Sv2SdswtMBugCnsJ4ExuU)'
 
     # To do	Healenium, AI agent orchestration, Kubernetes, Docker
     # Not interesting	TestNG, JUnit, Maven, Cypress, Rest Assured, 
@@ -137,9 +49,8 @@ cv:
     #   - reversed_number: This is a reversed numbered entry.
     #   - reversed_number: This is another reversed numbered entry.
     #   - reversed_number: This is the third reversed numbered entry.
-
 design:
-  theme: sb2nov
+  theme: classic
   page:
     size: us-letter
     top_margin: 1cm
@@ -150,13 +61,13 @@ design:
     show_last_updated_date: false
   colors:
     text: rgb(0, 0, 0)
-    name: rgb(0, 0, 0)
+    name: rgb(0, 79, 144)
     connections: rgb(0, 79, 144)
-    section_titles: rgb(0, 0, 0)
+    section_titles: rgb(0, 79, 144)
     links: rgb(0, 79, 144)
     last_updated_date_and_page_numbering: rgb(128, 128, 128)
   text:
-    font_family: New Computer Modern
+    font_family: Source Sans 3
     font_size: 10pt
     leading: 0.6em
     alignment: justified
@@ -165,14 +76,14 @@ design:
     underline: false
     use_external_link_icon: false
   header:
-    name_font_family: New Computer Modern
+    name_font_family: Source Sans 3
     name_font_size: 30pt
     name_bold: true
     photo_width: 3.5cm
     vertical_space_between_name_and_connections: 0.7cm
     vertical_space_between_connections_and_first_section: 0.7cm
     horizontal_space_between_connections: 0.5cm
-    connections_font_family: New Computer Modern
+    connections_font_family: Source Sans 3
     separator_between_connections: ''
     use_icons_for_connections: true
     alignment: center
@@ -185,18 +96,17 @@ design:
     line_thickness: 0.5pt
     vertical_space_above: 0.5cm
     vertical_space_below: 0.3cm
-    line_type: with-full-line
   entries:
     date_and_location_width: 4.15cm
     left_and_right_margin: 0.2cm
     horizontal_space_between_columns: 0.1cm
-    vertical_space_between_entries: 0.5cm
+    vertical_space_between_entries: 1.1em
     allow_page_break_in_sections: true
     allow_page_break_in_entries: true
     short_second_row: false
     show_time_spans_in: []
   highlights:
-    bullet: ◦
+    bullet: •
     top_margin: 0.25cm
     left_margin: 0.4cm
     vertical_space_between_highlights: 0.25cm
@@ -208,7 +118,7 @@ design:
     education_entry:
       main_column_first_row_template: |-
         **INSTITUTION**
-        *DEGREE in AREA*
+        DEGREE in AREA
       degree_column_template:
       degree_column_width: 1cm
       main_column_second_row_template: |-
@@ -223,12 +133,10 @@ design:
         SUMMARY
         HIGHLIGHTS
       date_and_location_column_template: |-
-        *LOCATION*
-        *DATE*
+        LOCATION
+        DATE
     experience_entry:
-      main_column_first_row_template: |-
-        **POSITION**
-        *COMPANY*
+      main_column_first_row_template: '**POSITION**, COMPANY'
       main_column_second_row_template: |-
         SUMMARY
         HIGHLIGHTS
@@ -286,6 +194,9 @@ locale:
     - November
     - December
 rendercv_settings:
-  date: '2025-03-09'
-  render_command:
+  date: '2025-06-22'
+  render_command: 
+    dont_generate_html: true
+    dont_generate_png: true
+    dont_generate_markdown: true
   bold_keywords: []
