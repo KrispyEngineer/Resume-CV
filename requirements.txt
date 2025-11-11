@@ -1,0 +1,3 @@
+pyperclip
+google-genai
+rendercv[full]
