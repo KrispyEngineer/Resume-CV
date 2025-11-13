@@ -6,7 +6,7 @@ set -euo pipefail
 exec > >(tee -a /tmp/myscript.log) 2>&1
 echo "==== Script started at $(date) ===="
 
-cd 'C:\Users\piyus\Desktop\lp3thw\JOB Switch AI CV generator\Resume-CV'
+cd '/mnt/c/Users/piyus/Desktop/lp3thw/JOB Switch AI CV generator/Resume-CV'
 
 git fetch --all
 
@@ -39,7 +39,7 @@ pip install -r requirements.txt
 python3 ./gpt_resume.py
 
 # Args: Job ID
-YAML_FILE="Rohan_Panchal_CV.yaml"
+YAML_FILE="Piyush_Patil_CV.yaml"
 
 # Convert to lowercase, remove spaces and special chars for branch name
 BRANCH_NAME=$(echo "$COMPANY_NAME" | tr '[:upper:]' '[:lower:]' | tr -cd '[:alnum:]-_')
