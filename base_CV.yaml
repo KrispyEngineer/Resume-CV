@@ -11,7 +11,7 @@ cv:
       username: KrispyEngineer
   sections:
     Summary:
-      - "Value-driven, 3.5+ years experienced SDET with expertise in automation, performance testing, and CI/CD, leveraging Python, Pytest, Selenium, and Locust. Proven track record in mentoring individuals, optimising and automating processes and test planning for high-quality software deliveries."
+      - "SDET with 4+ years of experience in automation, API testing, and performance engineering. Skilled in building robust Python-based test frameworks using Selenium, Pytest, Locust, and Postman. Strong expertise integrating automation into CI/CD pipelines using Newman and GitHub Actions, including parallel execution and automated rollback mechanisms. Experienced in leveraging AI-driven automation generation using Copilot + Playwright MCP."
     skills:
       - label: Technical
         details: Python, Java, JavaScript, TypeScript, Shell, Selenium, Playwright, Cucumber, Pytest, Locust, Postman, SQL, Flask, CSS, Linux, AWS, Jenkins, Bitbucket, GitHub, New Relic, CI/CD Pipelines, JIRA
