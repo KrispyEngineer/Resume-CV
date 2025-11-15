@@ -1,3 +1,64 @@
+cv:
+  name: Piyush Patil
+  location: Pune
+  email: piyushpatil617@gmail.com
+  phone: +91-997-059-6397
+  social_networks:
+    - network: LinkedIn
+      username: piyush-patil917
+    - network: GitHub
+      username: KrispyEngineer
+  sections:
+    Summary:
+      - "Senior SDET with 4+ years of experience designing and implementing robust, Python-based test automation frameworks. Deep expertise in Pytest and Selenium, with a strong architectural foundation readily adaptable to keyword-driven frameworks like Robot Framework. Proven ability to lead testing initiatives, mentor team members, and drive process improvements within Agile, CI/CD environments to ensure superior software quality and reliability."
+    skills:
+      - label: Technical
+        details: Python, Pytest, Robot Framework (proficient in underlying keyword-driven principles), Selenium, API Testing (Postman, Newman), CI/CD Pipelines (GitHub Actions, Jenkins), Git, Bitbucket, SQL, JIRA, JavaScript
+      - label: Other
+        details: Test Strategy & Framework Design, Test Automation Best Practices, Agile Methodologies (Scrum), Leadership & Mentoring, Defect Lifecycle Management, Cross-functional Collaboration
+    experience:
+      - company: Capgemini
+        position: Associate Consultant/Senior SDET
+        start_date: 2023-02
+        end_date: 2024-01
+        summary: Enterprise Application [Restaurant Retail Info Management]- Greenfield Project
+        highlights:
+          - Designed, developed, and maintained a scalable Python-based UI test automation framework using Pytest and Selenium, reducing manual regression testing time by over 70%.
+          - Architected and implemented automated REST API test suites using Postman–Newman, fully integrated into the CI/CD pipeline (GitHub Actions) to validate every code merge and deployment.
+          - Led test strategy planning and collaborated with cross-functional teams to translate business requirements into comprehensive and effective automated test cases.
+          - Enhanced the CI/CD process by incorporating automated failure alerts and deployment rollback triggers based on smoke test results, significantly improving release stability.
+          - Developed and executed performance test scripts using Locust, providing critical insights into system bottlenecks and ensuring application scalability under load.
+      - company: Capgemini
+        position: SDET
+        start_date: 2021-08
+        end_date: 2023-01
+        summary: Enterprise Application [Restaurant File Management]
+        highlights:
+          - Demonstrated leadership capability by mentoring junior SDETs on test automation fundamentals, Python best practices, and framework architecture, fostering team skill development.
+          - Continuously improved the test automation framework by implementing reusable components and a Page Object Model (POM), increasing script efficiency and maintainability by 30%.
+          - Played a key role in bug identification and tracking within an Agile (Scrum) workflow, using JIRA to create detailed defect reports and dashboards for stakeholder visibility.
+          - Designed and documented comprehensive test strategies and plans for new feature releases, ensuring alignment with the software development lifecycle (SDLC).
+      - company: Capgemini
+        position: SDET Trainee
+        start_date: 2021-08
+        end_date: 2022-01
+        summary:
+        highlights:
+          - Received intensive training in core automation technologies including Python, Selenium, and BDD principles within an Agile context.
+          - Contributed to client projects by assisting in test planning, manual test case design, and execution, quickly applying learned automation concepts.
+    education:
+      - institution: SKN Sinhagad Institute of Technology and Science (Pune)
+        area: Mechanical Engineering
+        degree: Bachelors in Engineering
+        start_date: 2016-08
+        end_date: 2020-09
+        location: Pune, IN
+        summary: CGPA - 8.33
+    Achievements:
+      - label: Certifications
+        details: '[PSM I - Scrum.org](https://drive.google.com/file/d/1YBgERJLMjptMqPFFC1ljwKDounLrExY5/view), [Selenium Webdriver with PYTHON from Scratch + Frameworks](https://www.udemy.com/certificate/UC-8a1719a3-edb2-4db6-a990-210615d9f3aa/)'
+      - label: Awards
+        details: '[Certificate of Appreciation](https://drive.google.com/file/d/1fXg38G8x78WyMi1pISv_POwKK-B7-u13/view)'
 
 design:
   theme: classic

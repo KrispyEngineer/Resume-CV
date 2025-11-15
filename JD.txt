@@ -1,0 +1,15 @@
+• Experience: 4+ years of experience in test automation with a strong focus on Robot Framework and Python.
+• Mandatory Technical Skills: Robot Framework and Python test automation Proficiency in Pytest automation tools.
+• Should have leadership capability as well and can be projected as a test lead as well
+
+Key Responsibilities:
+• Develop, maintain, and execute automated test scripts using Robot Framework and Python.
+• Design and implement test strategies and frameworks to ensure the quality and reliability of our software products.
+• Collaborate with cross-functional teams to understand requirements and translate them into effective test cases.
+• Identify, document, and track bugs and issues, ensuring timely resolution.
+• Continuously improve test automation processes and frameworks.
+• FolLow test automation best practices.
+• Understanding with continuous integration/continuous deployment (CI/CD) pipelines.
+• Familiarity with other test automation tools and frameworks.
+• Knowledge of software development lifecycle (SDLC) and agile methodologies.
+• Medical Domain Preferred.
