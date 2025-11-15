@@ -38,7 +38,7 @@ design:
     use_icons_for_connections: true
     alignment: center
   section_titles:
-    type: with-parial-line
+    type: with-partial-line
     font_family: New Computer Modern
     font_size: 1.3em
     bold: true
