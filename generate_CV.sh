@@ -6,7 +6,7 @@ set -euo pipefail
 exec > >(tee -a /tmp/myscript.log) 2>&1
 echo "==== Script started at $(date) ===="
 
-cd '/mnt/c/Users/piyus/Desktop/lp3thw/JOB Switch AI CV generator/Resume-CV'
+cd '/mnt/c/Users/piyus/Desktop/lp3thw/JOB_Switch_AI_CV_generator/Resume-CV'
 
 git fetch --all
 
