@@ -1,3 +1,59 @@
+cv:
+  name: Piyush Patil
+  location: Pune
+  email: piyushpatil617@gmail.com
+  phone: +91-997-059-6397
+  website:
+  social_networks:
+    - network: LinkedIn
+      username: piyush-patil917
+    - network: GitHub
+      username: KrispyEngineer
+  sections:
+    Summary:
+      - "Accomplished and self-driven SDET with comprehensive experience in designing and implementing robust automation frameworks for UI, API, and performance testing. Proven ability to excel across the full testing spectrum, including functional, integration, system, and regression testing in fast-paced Agile environments. Expert in Python, Selenium, Pytest, and CI/CD integration, with a strong focus on delivering high-quality products and enhancing release stability."
+    skills:
+      - label: Technical
+        details: Python, JavaScript, Selenium, Playwright, Pytest, API Testing (Postman, Newman), Performance Testing (Locust), SQL, CI/CD (GitHub Actions, Jenkins), Git (GitHub, Bitbucket), Linux/Unix, Bash, JIRA, New Relic
+      - label: QA Expertise
+        details: Test Automation Framework Design, API & UI Testing, Performance & Load Testing, Functional Testing, System Testing, Integration Testing, Regression Testing, Agile Methodologies, Defect Management, Test Strategy & Planning
+    experience:
+      - company: Capgemini
+        position: Associate Consultant/Senior SDET
+        start_date: 2023-02
+        end_date: 2024-01
+        summary: Enterprise Application [Restaurant Retail Info Management] - Greenfield Project
+        highlights:
+          - Led the design and implementation of REST API test suites using Postman-Newman, achieving 95% endpoint coverage and integrating into GitHub Actions to validate every code merge and deployment.
+          - Enhanced release stability by 40% by architecting a CI/CD pipeline with automated MS Teams failure alerts, test artifact publishing, and a smoke-test-driven deployment rollback mechanism.
+          - Architected and maintained a scalable Web UI automation framework using Python, Selenium, and Pytest, reducing manual regression testing effort by over 70%.
+          - Engineered and executed distributed load tests using Locust and Python on AWS, identifying and reporting critical performance bottlenecks to stakeholders using New Relic monitoring.
+          - Proactively drove testing strategy and planning, working independently to clarify requirements with stakeholders and executing PoCs to ensure alignment with business objectives in a fast-paced environment.
+      - company: Capgemini
+        position: SDET
+        start_date: 2021-08
+        end_date: 2023-01
+        summary: Enterprise Application [Restaurant File Management]
+        highlights:
+          - Designed and executed detailed test plans for functional, integration, and system testing of high-impact product features within a fast-paced Agile workflow.
+          - Played a key role in bug lifecycle management, creating detailed execution and defect dashboards in JIRA that improved visibility for major releases.
+          - Executed complex end-to-end and regression tests for a critical legacy-to-microservices migration project, ensuring seamless functionality post-transition.
+          - Mentored junior engineers on product architecture and test automation best practices, conducting rigorous code reviews to maintain high-quality standards.
+          - Optimized automation codebase by implementing reusable page objects and utility functions, improving script maintainability and reducing execution time by 30%.
+    education:
+      - institution: SKN Sinhagad Institute of Technology and Science (Pune)
+        area: Mechanical Engineering
+        degree: Bachelors in Engineering
+        start_date: 2016-08
+        end_date: 2020-09
+        location: Pune, IN
+        summary: CGPA - 8.33
+        highlights:
+    Achievements:
+      - label: Certifications
+        details: '[PSM I - Scrum.org](https://drive.google.com/file/d/1YBgERJLMjptMqPFFC1ljwKDounLrExY5/view), [Selenium Webdriver with PYTHON from Scratch + Frameworks](https://www.udemy.com/certificate/UC-8a1719a3-edb2-4db6-a990-210615d9f3aa/)'
+      - label: Awards
+        details: '[Certificate of Appreciation](https://drive.google.com/file/d/1fXg38G8x78WyMi1pISv_POwKK-B7-u13/view)'
 
 design:
   theme: classic
