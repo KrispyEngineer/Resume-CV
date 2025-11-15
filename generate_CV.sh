@@ -2,7 +2,7 @@
 
 set -euo pipefail
 
-# log all output (stdout + stderr)
+# Log all output (stdout + stderr)
 exec > >(tee -a /tmp/myscript.log) 2>&1
 echo "==== Script started at $(date) ===="
 
@@ -24,7 +24,11 @@ done
 
 echo "Creating for $COMPANY_NAME!"
 
-git checkout "main"
+git checkout main
+
+###########################################
+# VENV SETUP
+###########################################
 
 # Create venv if not present
 if [ ! -d "venv" ]; then
@@ -32,53 +36,50 @@ if [ ! -d "venv" ]; then
   python3 -m venv venv
 fi
 
+# Activate venv
+echo "Activating virtual environment..."
 source venv/bin/activate
 
+# Ensure pip is upgraded (safe inside venv)
+pip install --upgrade pip
+
+# Install dependencies
+echo "Installing requirements..."
 pip install -r requirements.txt
+
+###########################################
+# GENERATE RESUME YAML
+###########################################
 
 python3 ./gpt_resume.py
 
-# Args: Job ID
 YAML_FILE="Piyush_Patil_CV.yaml"
 
-# Convert to lowercase, remove spaces and special chars for branch name
-BRANCH_NAME=$(echo "$COMPANY_NAME" | tr '[:upper:]' '[:lower:]' | tr -cd '[:alnum:]-_')
-
-# Check input
-if [ -z "$YAML_FILE" ] || [ -z "$COMPANY_NAME" ]; then
-  echo "Usage: ./generate_resume.sh \"Company Name and JOB ID\""
-  exit 1
-fi
-
-# Exit if resume.yaml doesn't exist
+# Validate YAML exists
 if [ ! -f "$YAML_FILE" ]; then
-  echo "YAML resume not found at: $YAML_FILE"
+  echo "❌ YAML resume not found: $YAML_FILE"
   exit 1
 fi
 
-# Create and switch to new branch
+###########################################
+# CREATE BRANCH
+###########################################
+
 git checkout -b "$BRANCH_NAME"
 
-# setup
-if [ ! -d "venv" ]; then
-    python3 -m venv venv
-fi
+###########################################
+# RENDER RESUME
+###########################################
 
-# Generate resume
+echo "Rendering resume..."
 rendercv render "$YAML_FILE"
 
-# Commit and push
+###########################################
+# COMMIT + PUSH
+###########################################
+
 git add -A
 git commit -m "$COMPANY_NAME"
 git push -u origin "$BRANCH_NAME"
 
-echo "✅ Resume branch for $COMPANY_NAME created and pushed!"
-
-
-# # delete stale branches 
-# for k in $(git branch | sed /\*/d); do 
-#   if [ -z "$(git log -1 --since='4 months ago' -s $k)" ]; then
-#     git branch -D $k
-#     git push origin --delete $k
-#   fi
-# done
+echo "✅ Resume branch for $COMPANY_NAME created and pushed successfully!"
