@@ -14,55 +14,35 @@ cv:
       - "SDET with 4+ years of experience in automation, API testing, and performance engineering. Skilled in building robust Python-based test frameworks using Selenium, Pytest, Locust, and Postman. Strong expertise integrating automation into CI/CD pipelines using Newman and GitHub Actions, including parallel execution and automated rollback mechanisms. Experienced in leveraging AI-driven automation generation using Copilot + Playwright MCP."
     skills:
       - label: Technical
-        details: Python, Java, JavaScript, TypeScript, Shell, Selenium, Playwright, Cucumber, Pytest, Locust, Postman, SQL, Flask, CSS, Linux, AWS, Jenkins, Bitbucket, GitHub, New Relic, CI/CD Pipelines, JIRA
+        details: Python, JavaScript, bash, Selenium, Playwright, Pytest, Locust, API Testing (Postman-Newman), SQL, Jenkins, Bitbucket, GitHub, New Relic, CI/CD Pipelines, JIRA, GitHub Actions, Copilot
       - label: Other
-        details: Test Design, API Testing, Performance/Load Testing, Defect Management, Requirement Analysis, Version Control, Agile Methodologies
-    Achievements:
-      - label: Certifications
-        details: '[PSM I - Scrum.org](https://drive.google.com/file/d/180s6g84Bau-5lT2RkMMR_a1YI9fo73N7), [CS50x - Harvard](https://cs50.harvard.edu/certificates/2b3b7fcc-0bc8-4cdc-bb0e-866a3fcebe3d), [Automation Practitioner - Capgemini](https://drive.google.com/file/d/1DEyI18ejwoJ-Wz-GN2QmtdLTU3OH4Ywg)'
-      - label: Awards
-        details: '[Rising Star](https://drive.google.com/file/d/180s6g84Bau-5lT2RkMMR_a1YI9fo73N7), [Value Innovation](https://drive.google.com/file/d/1W6SL_C_zsko1xfvirofnwgatszNUnGTm), [Meritorious Performance](https://drive.google.com/file/d/1k23XbBC4Z9jiJmKET2Sl510VWVrSG9kO)'
+        details: Test Design & Planning, API Testing, Performance/Load Testing, Defect Management, Requirement Analysis, Version Control, Agile Methodologies
     experience:
       - company: Capgemini
-        position: Associate Consultant
-        date:
-        start_date: 2024-02
-        end_date: present
-        location: Pune, IN
-        summary:
-        highlights:
-          - Leading performance testing efforts for a global enterprise web application, developing and executing tests with Locust, analyzing and publishing performance insights.
-          - Automating end-to-end test cases for regression and functional testing using JavaScript and Selenium.
-          - Developed and optimized SQL queries for validating test data and performing backend validations in test scripts.
-          - Creating reusable macros, functions and generic locators, reducing script development time.
-          - Overseeing version control, reviewing, and merging pull requests for load test scripts ensuring high-quality code.
-          - Mentored new hires for load test scripting in Locust.
-          - Built an automated UI testing suite for mobile apps using Selenium, reducing manual testing efforts by 70%.
-
-      - company: Capgemini
-        position: Senior SDET
+        position: Associate Consultant/Senior SDET
         date:
         start_date: 2023-02
         end_date: 2024-01
-        summary:
+        summary: Enterprise Application [Restaurant Retail Info Management]- Greenfield Project
         highlights:
-          - Developed and executed end-to-end load test scripts along with Rest API tests using Locust with Python, using AWS for load generation and Argo CD for automated workflows.
+          - Built and automated REST API test suites using Postman–Newman, with full test case documentation in Zephyr and CI/CD integration in GitHub Actions for automatic runs on every code merge and deployment.
+          - Improved release reliability by adding MS Teams failure alerts, publishing test artifacts, and implementing an API smoke-test–based deployment rollback.
+          - Engineered and maintained a robust Web UI automation framework using Selenium and Python with Pytest, achieving comprehensive regression coverage.
+          - Developed and executed end-to-end load test scripts along with Rest API tests using Locust with Python, using AWS for distributed load generation and Argo CD for automated workflows.
           - Monitored infrastructure metrics using New Relic and analyzed response times to report performance insights and bottlenecks to stakeholders.
-          - Developed a custom VSCode linter extension with TypeScript and NodeJS for our framework to detect script bugs early, reducing debugging time.
-          - Executed end-to-end tests for migration from legacy to microservices.
+          - Planned testing activities, collaborated with stakeholders for requirement clarity, and executed POCs and research to support high-quality releases aligned with business expectations.
 
       - company: Capgemini
         position: SDET
-        date:
-        start_date: 2022-02
+        start_date: 2021-08
         end_date: 2023-01
-        location:
-        summary:
+        summary: Enterprise Application [Restaurant File Management]
         highlights:
-          - Developed test strategies for major releases, documenting test cases for new feature impacts in an Agile environment.
-          - Improved QA environment management by automating ticket creation for build upgrades, reducing manual efforts.
-          - Mentored new hires on product features, test automation, and QA processes, accelerating onboarding and productivity.
-          - Played a key role in bug identification, creating test execution and defect dashboards in JIRA for major releases.
+          - Designed and documented test strategies and manual test cases for high-impact features within an Agile sprint-based workflow.
+          - Played a key role in bug identification and lifecycle management, creating detailed execution and defect dashboards in JIRA for major releases.
+          - Mentored new hires on product features, test automation fundamentals & conducted code reviews for automation and load testing scripts.
+          - Executed end-to-end tests for migration from legacy to microservices.
+          - Implemented reusable page objects, generic locators, and utility functions to improve automation script efficiency by 30%
 
       - company: Capgemini
         position: SDET Trainee
@@ -72,18 +52,20 @@ cv:
         location:
         summary:
         highlights:
-          - Trained in web development, Core Java, Selenium, Cucumber and Agile practices for functional and automation testing.
-          - Hands-on training and contribution for a client in test planning, design, documentation and execution.
-
+          - Trained in Python, Selenium, Cucumber, and Agile practices for functional and automation testing.
+          - Contributed to client project in test planning, case design, documentation, and execution.
     education:
-      - institution: Institute of Infrastructure, Technology, Research and Management (Gov. of Gujarat)
-        area: Electrical Engineering
-        degree: B. Tech.
+      - institution: SKN Sinhagad Institute of Technology and Science (Pune)
+        area: Mechanical Engineering
+        degree: Bachelors in Engineering
         date:
-        start_date: 2017-08
-        end_date: 2021-05
-        location: Ahmedabad, IN
-        summary:
+        start_date: 2016-08
+        end_date: 2020-09
+        location: Pune, IN
+        summary: CGPA - 8.33
         highlights:
-          - 'Electives: Computer Networks, Defence Technologies (DRDO), Geographic Information Systems (GIS), Swarm Robotics'
-          - 'Other Courses: [Basic Principes of Remote Sensing (ISRO)](https://drive.google.com/file/d/1FRFdLXAqWD-li6U3d50mTjREqwUChMOz), [Siemens NX](https://drive.google.com/file/d/1Nvyi28Ulh_5Sv2SdswtMBugCnsJ4ExuU)'
+    Achievements:
+      - label: Certifications
+        details: '[PSM I - Scrum.org](https://drive.google.com/file/d/1YBgERJLMjptMqPFFC1ljwKDounLrExY5/view), [Selenium Webdriver with PYTHON from Scratch + Frameworks](https://www.udemy.com/certificate/UC-8a1719a3-edb2-4db6-a990-210615d9f3aa/)'
+      - label: Awards
+        details: '[Certificate of Appreciation](https://drive.google.com/file/d/1fXg38G8x78WyMi1pISv_POwKK-B7-u13/view)'
