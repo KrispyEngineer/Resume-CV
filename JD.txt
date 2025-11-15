@@ -1,0 +1,29 @@
+QA Engineer is responsible to certify the quality of the software products used across the organization.  They are typically web applications that require manual and automation testing for functionality and performance.  This is done through formulating effective test case, test plan; maintaining them and executing them.  Good interpersonal skills are required for effective communication with the Business and Development teams.
+
+
+Technical Skills 
+
+C# Automation
+Advanced programming skills including test automation tools and CI/CD integration.
+Familiarity with programming script languages including Java and JavaScript.
+Expertise in Selenium, API Testing with Postman ,TestNG, Appium, RestAssured .
+Expertise in automating Web, Android and iOS applications.
+Ability to develop test automation frameworks.
+Ability to work as an individual contributor.
+Strong attention to detail.
+Familiarity with Git or other version control systems.
+Understanding of Agile development methodologies.
+Willingness to switch to manual testing whenever required.
+Excellent analytical skills and problem-solving skills.
+Detailed knowledge of application functions, bug fixing
+
+Minimum Experience: 4 Years and above 
+
+
+General Responsibilities
+
+Test to break attitude
+Flexible in working under changing and different work settings.
+Maintain high team morale.
+Adhere to company and project standards and guidelines
+Excellent communication

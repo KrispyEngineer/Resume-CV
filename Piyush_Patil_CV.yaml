@@ -1,3 +1,74 @@
+cv:
+  name: Piyush Patil
+  location: Pune
+  email: piyushpatil617@gmail.com
+  phone: +91-997-059-6397
+  social_networks:
+    - network: LinkedIn
+      username: piyush-patil917
+    - network: GitHub
+      username: KrispyEngineer
+  sections:
+    Summary:
+      - "Results-driven SDET with comprehensive experience in designing, developing, and implementing robust automation frameworks for web and API testing. Proficient in object-oriented programming (Python, JavaScript) with skills readily transferable to C# and Java. Expertise in Selenium, Postman, and CI/CD integration, with a strong foundation in building scalable test solutions from the ground up within Agile environments. Proven ability to reduce testing cycles and improve software quality through strategic automation."
+    skills:
+      - label: Programming & Scripting
+        details: Python, JavaScript (Strong foundation for C# & Java), SQL, Bash
+      - label: Test Automation Frameworks & Tools
+        details: Selenium, API Testing (Postman, Newman), Pytest (adaptable to TestNG), RestAssured (principles), Web & API Automation (foundational knowledge applicable to Appium)
+      - label: CI/CD & Version Control
+        details: Jenkins, GitHub Actions, Git, Bitbucket
+      - label: Methodologies & Other
+        details: Agile/Scrum, Test Strategy & Design, Framework Development, Defect Management, Root Cause Analysis, JIRA
+    experience:
+      - company: Capgemini
+        position: Associate Consultant/Senior SDET
+        date:
+        start_date: 2023-02
+        end_date: 2024-01
+        summary: Enterprise Application [Restaurant Retail Info Management]- Greenfield Project
+        highlights:
+          - Designed and implemented a scalable, object-oriented UI test automation framework from scratch using Selenium and Python, reducing manual regression testing time by over 60%.
+          - Engineered a comprehensive API automation framework using Postman and Newman, achieving 95% test coverage for critical REST endpoints and ensuring API reliability.
+          - Integrated automated API and UI tests into the CI/CD pipeline using GitHub Actions, enabling automated regression checks on every deployment and significantly reducing manual intervention.
+          - Implemented a smoke-test-gated deployment strategy that automatically triggered rollbacks on failure, improving production stability and minimizing downtime.
+          - Conducted performance and load testing using Locust to identify and report key system bottlenecks, ensuring application scalability under high traffic.
+          - Collaborated closely with development and business teams in an Agile setting to define test strategies and ensure comprehensive quality coverage.
+      - company: Capgemini
+        position: SDET
+        start_date: 2021-08
+        end_date: 2023-01
+        summary: Enterprise Application [Restaurant File Management]
+        highlights:
+          - Played a key role in the quality assurance lifecycle within an Agile environment, executing both manual test cases for new features and developing automation scripts for regression.
+          - Refactored the existing automation codebase by implementing the Page Object Model (POM) and reusable utility functions, improving script maintainability and reducing code duplication by 30%.
+          - Managed bug identification and lifecycle in JIRA, creating detailed defect dashboards that provided key quality metrics to stakeholders for major releases.
+          - Mentored junior engineers on automation best practices, product features, and conducted peer code reviews to maintain high code quality standards.
+      - company: Capgemini
+        position: SDET Trainee
+        date:
+        start_date: 2021-08
+        end_date: 2022-01
+        location:
+        summary:
+        highlights:
+          - Received intensive training in core QA principles including Python, Selenium, and Agile methodologies.
+          - Contributed to test planning, case design, and execution on a live client project, quickly applying learned automation concepts.
+    education:
+      - institution: SKN Sinhagad Institute of Technology and Science (Pune)
+        area: Mechanical Engineering
+        degree: Bachelors in Engineering
+        date:
+        start_date: 2016-08
+        end_date: 2020-09
+        location: Pune, IN
+        summary: CGPA - 8.33
+        highlights:
+    Achievements:
+      - label: Certifications
+        details: '[PSM I - Scrum.org](https://drive.google.com/file/d/1YBgERJLMjptMqPFFC1ljwKDounLrExY5/view), [Selenium Webdriver with PYTHON from Scratch + Frameworks](https://www.udemy.com/certificate/UC-8a1719a3-edb2-4db6-a990-210615d9f3aa/)'
+      - label: Awards
+        details: '[Certificate of Appreciation](https://drive.google.com/file/d/1fXg38G8x78WyMi1pISv_POwKK-B7-u13/view)'
 
 design:
   theme: classic

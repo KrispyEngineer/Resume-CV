@@ -3,25 +3,24 @@
 
 #let name = "Piyush Patil"
 #let locale-catalog-page-numbering-style = context { "Piyush Patil - Page " + str(here().page()) + " of " + str(counter(page).final().first()) + "" }
-#let locale-catalog-last-updated-date-style = "Last updated in Nov 2025"
+#let locale-catalog-last-updated-date-style = "Last updated in June 2025"
 #let locale-catalog-language = "en"
 #let design-page-size = "us-letter"
-#let design-section-titles-font-size = 1.4em
 #let design-colors-text = rgb(0, 0, 0)
 #let design-colors-section-titles = rgb(0, 79, 144)
 #let design-colors-last-updated-date-and-page-numbering = rgb(128, 128, 128)
 #let design-colors-name = rgb(0, 79, 144)
 #let design-colors-connections = rgb(0, 79, 144)
 #let design-colors-links = rgb(0, 79, 144)
-#let design-section-titles-font-family = "Source Sans 3"
+#let design-section-titles-font-family = "New Computer Modern"
 #let design-section-titles-bold = true
 #let design-section-titles-line-thickness = 0.5pt
-#let design-section-titles-font-size = 1.4em
-#let design-section-titles-type = "with-parial-line"
+#let design-section-titles-font-size = 1.3em
+#let design-section-titles-type = "with-partial-line"
 #let design-section-titles-vertical-space-above = 0.5cm
 #let design-section-titles-vertical-space-below = 0.3cm
 #let design-section-titles-small-caps = false
-#let design-links-use-external-link-icon = true
+#let design-links-use-external-link-icon = false
 #let design-text-font-size = 10pt
 #let design-text-leading = 0.6em
 #let design-text-font-family = "Source Sans 3"
@@ -32,6 +31,7 @@
 #let design-header-name-font-family = "Source Sans 3"
 #let design-header-name-font-size = 30pt
 #let design-header-name-bold = true
+#let design-header-small-caps-for-name = false
 #let design-header-connections-font-family = "Source Sans 3"
 #let design-header-vertical-space-between-name-and-connections = 0.7cm
 #let design-header-vertical-space-between-connections-and-first-section = 0.7cm
@@ -41,21 +41,22 @@
 #let design-header-alignment = center
 #let design-highlights-summary-left-margin = 0cm
 #let design-highlights-bullet = "•"
+#let design-highlights-nested-bullet = "-"
 #let design-highlights-top-margin = 0.25cm
 #let design-highlights-left-margin = 0.4cm
 #let design-highlights-vertical-space-between-highlights = 0.25cm
 #let design-highlights-horizontal-space-between-bullet-and-highlights = 0.5em
-#let design-entries-vertical-space-between-entries = 1.2em
+#let design-entries-vertical-space-between-entries = 1.1em
 #let design-entries-date-and-location-width = 4.15cm
 #let design-entries-allow-page-break-in-entries = true
 #let design-entries-horizontal-space-between-columns = 0.1cm
 #let design-entries-left-and-right-margin = 0.2cm
-#let design-page-top-margin = 2cm
-#let design-page-bottom-margin = 2cm
-#let design-page-left-margin = 2cm
-#let design-page-right-margin = 2cm
-#let design-page-show-last-updated-date = true
-#let design-page-show-page-numbering = true
+#let design-page-top-margin = 1cm
+#let design-page-bottom-margin = 1cm
+#let design-page-left-margin = 1cm
+#let design-page-right-margin = 1cm
+#let design-page-show-last-updated-date = false
+#let design-page-show-page-numbering = false
 #let design-links-underline = false
 #let design-entry-types-education-entry-degree-column-width = 1cm
 #let date = datetime.today()
@@ -125,13 +126,22 @@
   )
 }
 #show list: set list(
-  marker: design-highlights-bullet,
-  spacing: 0pt,
+  marker: design-highlights-nested-bullet,
+  spacing: design-highlights-vertical-space-between-highlights,
   indent: 0pt,
   body-indent: design-highlights-horizontal-space-between-bullet-and-highlights,
 )
 
 // Entry utilities:
+#let bullet-entry(..content) = {
+  list(
+    ..content,
+    marker: design-highlights-bullet,
+    spacing: 0pt,
+    indent: 0pt,
+    body-indent: design-highlights-horizontal-space-between-bullet-and-highlights,
+  )
+}
 #let three-col(
   left-column-width: 1fr,
   middle-column-width: 1fr,
@@ -192,7 +202,11 @@
     size: design-header-name-font-size,
     fill: design-colors-name,
   )
-  #it.body
+  #if design-header-small-caps-for-name [
+    #smallcaps(it.body)
+  ] else [
+    #it.body
+  ]
   // Vertical space after the name
   #v(design-header-vertical-space-between-name-and-connections)
 ]
@@ -243,7 +257,7 @@
         #box(
           [
             #section-title
-            #if design-section-titles-type == "with-parial-line" [
+            #if design-section-titles-type == "with-partial-line" [
               #box(width: 1fr, height: design-section-titles-line-thickness, fill: design-colors-section-titles)
             ] else if design-section-titles-type == "with-full-line" [
 
@@ -465,7 +479,7 @@
 
 
 #one-col-entry(
-  content: [SDET with 4+ years of experience in automation, API testing, and performance engineering. Skilled in building robust Python-based test frameworks using Selenium, Pytest, Locust, and Postman. Strong expertise integrating automation into CI\/CD pipelines using Newman and GitHub Actions, including parallel execution and automated rollback mechanisms. Experienced in leveraging AI-driven automation generation using Copilot + Playwright MCP.]
+  content: [Results-driven SDET with comprehensive experience in designing, developing, and implementing robust automation frameworks for web and API testing. Proficient in object-oriented programming \(Python, JavaScript\) with skills readily transferable to C\# and Java. Expertise in Selenium, Postman, and CI\/CD integration, with a strong foundation in building scalable test solutions from the ground up within Agile environments. Proven ability to reduce testing cycles and improve software quality through strategic automation.]
 )
 
 
@@ -473,11 +487,19 @@
 
 
 #one-col-entry(
-  content: [#strong[Technical:] Python, JavaScript, bash, Selenium, Playwright, Pytest, Locust, API Testing \(Postman-Newman\), SQL, Jenkins, Bitbucket, GitHub, New Relic, CI\/CD Pipelines, JIRA, GitHub Actions, Copilot]
+  content: [#strong[Programming & Scripting:] Python, JavaScript \(Strong foundation for C\# & Java\), SQL, Bash]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Other:] Test Design & Planning, API Testing, Performance\/Load Testing, Defect Management, Requirement Analysis, Version Control, Agile Methodologies]
+  content: [#strong[Test Automation Frameworks & Tools:] Selenium, API Testing \(Postman, Newman\), Pytest \(adaptable to TestNG\), RestAssured \(principles\), Web & API Automation \(foundational knowledge applicable to Appium\)]
+)
+#v(design-entries-vertical-space-between-entries)
+#one-col-entry(
+  content: [#strong[CI\/CD & Version Control:] Jenkins, GitHub Actions, Git, Bitbucket]
+)
+#v(design-entries-vertical-space-between-entries)
+#one-col-entry(
+  content: [#strong[Methodologies & Other:] Agile\/Scrum, Test Strategy & Design, Framework Development, Defect Management, Root Cause Analysis, JIRA]
 )
 
 
@@ -486,49 +508,49 @@
 
 #two-col-entry(
   left-content: [
-    #strong[Capgemini], Associate Consultant\/Senior SDET
+    #strong[Associate Consultant\/Senior SDET], Capgemini
   ],
   right-content: [
-    Feb 2023 – Jan 2024
+    #emph[Feb 2023 – Jan 2024]
   ],
 )
 #one-col-entry(
   content: [
     #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Enterprise Application \[Restaurant Retail Info Management\]- Greenfield Project])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Built and automated REST API test suites using Postman–Newman, with full test case documentation in Zephyr and CI\/CD integration in GitHub Actions for automatic runs on every code merge and deployment.],[Improved release reliability by adding MS Teams failure alerts, publishing test artifacts, and implementing an API smoke-test–based deployment rollback.],[Engineered and maintained a robust Web UI automation framework using Selenium and Python with Pytest, achieving comprehensive regression coverage.],[Developed and executed end-to-end load test scripts along with Rest API tests using Locust with Python, using AWS for distributed load generation and Argo CD for automated workflows.],[Monitored infrastructure metrics using New Relic and analyzed response times to report performance insights and bottlenecks to stakeholders.],[Planned testing activities, collaborated with stakeholders for requirement clarity, and executed POCs and research to support high-quality releases aligned with business expectations.],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Designed and implemented a scalable, object-oriented UI test automation framework from scratch using Selenium and Python, reducing manual regression testing time by over 60\%.],[Engineered a comprehensive API automation framework using Postman and Newman, achieving 95\% test coverage for critical REST endpoints and ensuring API reliability.],[Integrated automated API and UI tests into the CI\/CD pipeline using GitHub Actions, enabling automated regression checks on every deployment and significantly reducing manual intervention.],[Implemented a smoke-test-gated deployment strategy that automatically triggered rollbacks on failure, improving production stability and minimizing downtime.],[Conducted performance and load testing using Locust to identify and report key system bottlenecks, ensuring application scalability under high traffic.],[Collaborated closely with development and business teams in an Agile setting to define test strategies and ensure comprehensive quality coverage.],)
   ],
 )
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #strong[Capgemini], SDET
+    #strong[SDET], Capgemini
   ],
   right-content: [
-    Aug 2021 – Jan 2023
+    #emph[Aug 2021 – Jan 2023]
   ],
 )
 #one-col-entry(
   content: [
     #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Enterprise Application \[Restaurant File Management\]])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Designed and documented test strategies and manual test cases for high-impact features within an Agile sprint-based workflow.],[Played a key role in bug identification and lifecycle management, creating detailed execution and defect dashboards in JIRA for major releases.],[Mentored new hires on product features, test automation fundamentals & conducted code reviews for automation and load testing scripts.],[Executed end-to-end tests for migration from legacy to microservices.],[Implemented reusable page objects, generic locators, and utility functions to improve automation script efficiency by 30\%],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Played a key role in the quality assurance lifecycle within an Agile environment, executing both manual test cases for new features and developing automation scripts for regression.],[Refactored the existing automation codebase by implementing the Page Object Model \(POM\) and reusable utility functions, improving script maintainability and reducing code duplication by 30\%.],[Managed bug identification and lifecycle in JIRA, creating detailed defect dashboards that provided key quality metrics to stakeholders for major releases.],[Mentored junior engineers on automation best practices, product features, and conducted peer code reviews to maintain high code quality standards.],)
   ],
 )
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #strong[Capgemini], SDET Trainee
+    #strong[SDET Trainee], Capgemini
   ],
   right-content: [
-    Aug 2021 – Jan 2022
+    #emph[Aug 2021 – Jan 2022]
   ],
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Trained in Python, Selenium, Cucumber, and Agile practices for functional and automation testing.],[Contributed to client project in test planning, case design, documentation, and execution.],)
+    #v(design-highlights-top-margin);#highlights([Received intensive training in core QA principles including Python, Selenium, and Agile methodologies.],[Contributed to test planning, case design, and execution on a live client project, quickly applying learned automation concepts.],)
   ],
 )
 
@@ -537,21 +559,28 @@
 == Education
 
 
-// YES DATE, YES DEGREE
-#three-col-entry(
-  left-column-width: 1cm,
-  left-content: [#strong[Bachelors in Engineering]],
-  middle-content: [
-    #strong[SKN Sinhagad Institute of Technology and Science \(Pune\)], Mechanical Engineering
-    #v(-design-text-leading)
+// YES DATE, NO DEGREE
+#two-col-entry(
+  left-content: [
+    #strong[SKN Sinhagad Institute of Technology and Science \(Pune\)]
 
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [CGPA - 8.33])], column-gutter: 0cm)
+Bachelors in Engineering in Mechanical Engineering
   ],
   right-content: [
-    Pune, IN
+    #emph[Pune, IN]
 
-Aug 2016 – Sept 2020
+#emph[Aug 2016 – Sept 2020]
   ],
+)
+#block(
+  [
+    #set par(spacing: 0pt)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [CGPA - 8.33])], column-gutter: 0cm)
+  ],
+  inset: (
+    left: design-entries-left-and-right-margin,
+    right: design-entries-left-and-right-margin,
+  ),
 )
 
 
