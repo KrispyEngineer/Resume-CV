@@ -1,0 +1,35 @@
+We are looking for a skilled Test Engineer with strong expertise in manual testing, SDLC/STLC processes, and web/mobile validation. The ideal candidate will ensure quality, reliability, and performance across multiple digital platforms.
+
+Core Testing Skills:
+
+Strong understanding of SDLC/STLC and software testing life cycles.
+Proficient in requirement analysis, test design, and writing detailed test cases.
+Experienced in exploratory and session-based testing.
+Skilled in test planning, scheduling, and effort estimation.
+Sound knowledge of defect management, bug life cycle, and root cause analysis.
+Technical / Domain Knowledge:
+
+Expertise in web and mobile testing, including responsive UI/UX validation across browsers and devices.
+Hands-on API testing experience using tools like Postman or Swagger with JSON/XML validation.
+Proficiency in database and SQL for backend and data verification.
+Basic understanding of networking concepts – HTTP/HTTPS, cookies, caching, and request-response headers.
+Ability to grasp complex business logic quickly across domains.
+Tools & Utilities:
+
+Experience with defect tracking and test management tools such as Jira, Azure DevOps, or Bugzilla.
+Familiar with browser developer tools, Charles, or Fiddler for network analysis.
+Quality & Compliance:
+
+Awareness of security and privacy best practices.
+Understanding of performance testing fundamentals and spotting bottlenecks.
+Soft Skills & Mindset:
+
+Strong analytical and critical thinking to identify edge cases and potential failures.
+Excellent communication and documentation for clear bug reports and test cases.
+Collaborative attitude towards developers, product owners, and automation teams.
+Curious, detail-oriented, and proactive approach to testing and quality assurance.
+Nice to Have:
+
+Exposure to automation tools such as Selenium, Appium, or REST Assured.
+Familiarity with CI/CD tools like Jenkins or GitHub Actions.
+Experience working in Agile/Scrum environments.

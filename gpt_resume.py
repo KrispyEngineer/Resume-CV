@@ -8,13 +8,13 @@ import sys
 
 pre_prompt_prefix = """
 
+
 You are an elite-level resume strategist with deep expertise in QA automation, SDET roles, and hiring psychology. Your role is to act as a precision resume optimizer.
 
 I will provide you with:
 
-My core resume in YAML format (skills, experience, education, etc.)
-
-A job description (JD) I am applying for
+* My core resume in YAML format (skills, experience, education, etc.)
+* A job description (JD) I am applying for
 
 Your Task:
 
@@ -22,35 +22,44 @@ Modify my resume YAML to make me look like the perfect, best-fit candidate for t
 
 When aligning skills/experience with the JD:
 
-If the JD lists technologies I haven’t directly used (e.g., Cypress instead of Selenium, Jenkins instead of GitHub Actions, Java instead of Python), then:
+* If the JD lists technologies I haven’t directly used (e.g., Cypress instead of Selenium, Jenkins instead of GitHub Actions, Java instead of Python), then intelligently reword or substitute to show transferable expertise and adaptability.
 
-Intelligently reword or substitute to show transferable expertise and adaptability.
+* Example: If I know Selenium with Python, frame it as “Selenium with Python, adaptable to Cypress/Playwright due to strong automation fundamentals.”
+* Never invent or hallucinate experience, companies, or tools I have never used. Instead, reframe existing skills to highlight relevance.
+* Trim irrelevant skills for this JD.
+* Add measurable impact wherever possible (e.g., “reduced testing effort by 70%” or “accelerated release cycles by X%”).
+* Ensure the resume reads as professional, credible, and mid-to-senior level SDET.
+* Keep tone achievement-focused and recruiter-friendly.
+* Optimize for ATS keyword matching while remaining natural.
+* Do not overinflate or exaggerate beyond what is realistically credible.
+* Keep the number of years of experience intact; do not inflate number of years of experience.
 
-Example: If I know Selenium with Python, frame it as “Selenium with Python, adaptable to Cypress/Playwright due to strong automation fundamentals.”
+Formatting rules (CRITICAL — follow exactly):
 
-Never invent or hallucinate experience, companies, or tools I have never used. Instead, reframe existing skills to highlight relevance.
+* Preserve the exact YAML **structure, keys, and ordering** provided in the input. You may modify values (strings, lists, numbers) but **do not add or remove top-level keys or subkeys**.
+* Do **not** add new sections, new subsection labels, or new nested mappings. Only update existing values.
+* For sequence (list) fields: keep the same YAML sequence style (do not convert block lists to inline comma-separated strings or vice versa).
+* Specifically for the `skills` section: preserve the existing subsections exactly. If the base CV contains only:
 
-Trim irrelevant skills for this JD.
+  * `skills:`
 
-Add measurable impact wherever possible (e.g., “reduced testing effort by 70%” or “accelerated release cycles by X%”).
-
-Ensure the resume reads as professional, credible, and mid-to-senior level SDET.
-
-Keep tone achievement-focused and recruiter-friendly.
-
-Optimize for ATS keyword matching while remaining natural.
-
-Do not overinflate or exaggerate beyond what is realistically credible.
+    * `label: Technical`
+      `details: ...`
+    * `label: Other`
+      `details: ...`
+      then **only** update the `details` values under those two existing subsections. **Do not** create additional `label` entries (no additional "Programming", "Tools", etc.). Merge or reorder items into the existing `Technical` and `Other` subsections as appropriate for the JD.
+* Do not change indentation levels, YAML keys' names/capitalization, or add comments.
+* Do not wrap YAML output with extra markup or explanatory text. The output must be the YAML content only.
 
 Ensure output format is valid YAML, preserving the same structure I provide, ready for parsing or export to PDF.
 
-Keep the number of years of experience intact, do not inflate number of years of experience.
+Keep the number of years of experience intact; do not inflate number of years.
 
 Output Requirements:
 
-Return only the updated YAML resume.
+* Return only the updated YAML resume.
+* Do not include commentary, explanations, or extra text outside YAML.
 
-Do not include commentary, explanations, or extra text outside YAML.
 
 <yaml-cv>
 """

@@ -1,3 +1,74 @@
+cv:
+  name: Piyush Patil
+  location: Pune
+  email: piyushpatil617@gmail.com
+  phone: +91-997-059-6397
+  social_networks:
+    - network: LinkedIn
+      username: piyush-patil917
+    - network: GitHub
+      username: KrispyEngineer
+  sections:
+    Summary:
+      - "Skilled Test Engineer with 4+ years of experience ensuring software quality through comprehensive manual and automated testing. Expertise in all phases of the SDLC/STLC, including requirement analysis, test planning, and detailed test case design. Proficient in web and API testing using tools like Postman, and experienced in backend validation with SQL. Leverages automation skills in Python, Selenium, and Pytest to enhance testing efficiency and integrate quality checks into CI/CD pipelines (GitHub Actions)."
+    skills:
+      - label: Technical
+        details: SQL, API Testing (Postman-Newman), JIRA, Selenium, Python, JavaScript, Pytest, Playwright, CI/CD Pipelines, GitHub Actions, Locust, New Relic, bash, GitHub, Bitbucket
+      - label: Other
+        details: SDLC & STLC, Test Planning & Strategy, Requirement Analysis, Test Case Design, Defect Management & Root Cause Analysis, Web & Mobile UI/UX Testing, Performance Testing Fundamentals, Agile/Scrum Methodologies
+    experience:
+      - company: Capgemini
+        position: Senior Test Engineer / SDET
+        date:
+        start_date: 2023-02
+        end_date: 2024-01
+        summary: Enterprise Application [Restaurant Retail Info Management]- Greenfield Project
+        highlights:
+          - Designed and executed comprehensive REST API test strategies using Postman to validate complex business logic, then automated these suites with Newman for CI/CD integration in GitHub Actions.
+          - Validated web application functionality and responsive UI/UX across browsers by designing and implementing a Python-based automation framework using Selenium and Pytest, achieving comprehensive regression coverage.
+          - Led test planning activities, including effort estimation and scheduling, collaborating with stakeholders to ensure requirement clarity and deliver high-quality releases.
+          - Executed load tests using Locust to identify performance bottlenecks, analyzing application performance and network behavior with New Relic to provide actionable insights to developers.
+          - Managed the full defect lifecycle in JIRA, from identification and detailed reporting to root cause analysis and verification, ensuring transparent quality metrics for stakeholders.
+          - Improved release stability by integrating automated smoke tests into the deployment pipeline, enabling automatic rollbacks and failure alerts via MS Teams.
+
+      - company: Capgemini
+        position: Test Engineer / SDET
+        start_date: 2021-08
+        end_date: 2023-01
+        summary: Enterprise Application [Restaurant File Management]
+        highlights:
+          - Authored and executed detailed manual test cases and comprehensive test strategies for high-impact features within an Agile/Scrum environment.
+          - Performed backend data validation and integrity checks by writing and executing complex SQL queries against application databases.
+          - Played a key role in bug identification, creating detailed execution and defect dashboards in JIRA to track quality for major releases.
+          - Improved overall testing efficiency by 30% through the development of reusable test components and utility functions, reducing script maintenance overhead.
+          - Executed critical end-to-end tests for a complex data migration from a legacy system to a new microservices architecture.
+          - Mentored new team members on product features, test processes, and automation best practices, including conducting code reviews.
+
+      - company: Capgemini
+        position: QA Trainee
+        date:
+        start_date: 2021-08
+        end_date: 2022-01
+        location:
+        summary:
+        highlights:
+          - Trained in Python, Selenium, Cucumber, and Agile practices for functional and automation testing.
+          - Contributed to client project in test planning, case design, documentation, and execution.
+    education:
+      - institution: SKN Sinhagad Institute of Technology and Science (Pune)
+        area: Mechanical Engineering
+        degree: Bachelors in Engineering
+        date:
+        start_date: 2016-08
+        end_date: 2020-09
+        location: Pune, IN
+        summary: CGPA - 8.33
+        highlights:
+    Achievements:
+      - label: Certifications
+        details: '[PSM I - Scrum.org](https://drive.google.com/file/d/1YBgERJLMjptMqPFFC1ljwKDounLrExY5/view), [Selenium Webdriver with PYTHON from Scratch + Frameworks](https://www.udemy.com/certificate/UC-8a1719a3-edb2-4db6-a990-210615d9f3aa/)'
+      - label: Awards
+        details: '[Certificate of Appreciation](https://drive.google.com/file/d/1fXg38G8x78WyMi1pISv_POwKK-B7-u13/view)'
 
 design:
   theme: classic
