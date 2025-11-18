@@ -1,0 +1,30 @@
+Job Responsibilities: 
+
+Understand the Tarana Cloud Suite architecture and gain expertise in all the components involved
+Design, develop and enhance an existing python-based automation framework
+Create UI test scripts using Selenium (or equivalent tools)
+Automate system, scale and performance tests (REST APIs)
+Attend feature design meetings, design comprehensive test plans, create test cases and execute tests
+Review test plans/test code written by other team members
+Own regression test areas and ensure that the product quality is intact despite code churn
+Identify defects and own them through the resolution and verification cycle
+Ensure effective communication of project and testing status to all stakeholders
+Debug problems reported by the customers and reproduce the same in lab environments.
+Own regression test areas and ensure that the product quality is intact despite of code churn
+Contribute to development of tools that enhance test efficiency/management
+Identify defects and own them through the resolution and verification cycle
+
+Required Skills & Experience: 
+
+Bachelor’s/Master's degree in computer science or closely related disciplines 
+2 - 12 years of QA automation experience using Python on microservices-based SaaS products deployed on cloud platforms like AWS, GCP
+Good understanding of Object-Oriented Design methodology
+Experience in functional and system level testing of APIs (familiarity with REST API, JSON, XML) and Frontend (UI)
+Experience of Selenium(or equivalent tools) for UI automation
+Good understanding of QA processes and Agile methodologies
+Exposure to Linux and understanding of Docker containers, VMs etc
+Knowledge of Networking concepts like switching and routing
+Knowledge on ELK (Elasticsearch, Logstash and Kibana), Kafka etc
+Excellent debugging/analytical skills with a focus on solving problems
+Experience of Selenium(or equivalent tools) for UI automation
+Experience with Jira and Confluence
