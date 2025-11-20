@@ -1,3 +1,71 @@
+cv:
+  name: Piyush Patil
+  location: Pune
+  email: piyushpatil617@gmail.com
+  phone: +91-997-059-6397
+  social_networks:
+    - network: LinkedIn
+      username: piyush-patil917
+    - network: GitHub
+      username: KrispyEngineer
+  sections:
+    Summary:
+      - "Results-driven Python Test Automation Engineer with 4+ years of experience designing and implementing robust automation frameworks. Deep expertise in Python, Pytest, and Selenium for comprehensive UI and API testing. Proven ability in integrating automated tests into CI/CD pipelines to accelerate release cycles. Specializes in performance testing with Python-based tools and is highly adaptable to new frameworks like Robot Framework based on a strong foundation in automation principles."
+    skills:
+      - label: Technical
+        details: 'Python, Pytest, PyCharm, Selenium, Robot Framework (Adaptable), API Testing (Postman, Newman), Locust, CI/CD (GitHub Actions, Jenkins), Git, SQL, JavaScript, Bash, Playwright, New Relic, JIRA'
+      - label: Other
+        details: 'Test Strategy & Planning, API & Performance Testing, Test Framework Architecture, Defect Lifecycle Management, Agile/Scrum Methodologies, Version Control (Git)'
+    experience:
+      - company: Capgemini
+        position: Associate Consultant/Senior SDET
+        date:
+        start_date: 2023-02
+        end_date: 2024-01
+        summary: Enterprise Application [Restaurant Retail Info Management]- Greenfield Project
+        highlights:
+          - Developed and maintained a comprehensive UI test automation framework from scratch using Python, Pytest, and Selenium, resulting in a 70% reduction in manual regression testing effort.
+          - Engineered a scalable REST API automation framework using Python and Postman-Newman, achieving 95% test coverage for critical endpoints and integrating it into the GitHub Actions CI/CD pipeline.
+          - Increased release stability by 40% by implementing a CI/CD-integrated smoke suite with automated MS Teams failure alerts and a deployment rollback mechanism, preventing critical bugs from reaching production.
+          - Conducted large-scale performance tests using a distributed load generation setup on AWS with Locust and Python, identifying and helping resolve 5 critical performance bottlenecks before production release.
+          - Monitored infrastructure metrics using New Relic and analyzed response times to report performance insights and bottlenecks to stakeholders.
+
+      - company: Capgemini
+        position: SDET
+        start_date: 2021-08
+        end_date: 2023-01
+        summary: Enterprise Application [Restaurant File Management]
+        highlights:
+          - Owned the end-to-end testing lifecycle in an Agile environment, from test planning and strategy design to defect management in JIRA, ensuring 100% test coverage for new features each sprint.
+          - Refactored the existing Python-based Pytest framework by implementing the Page Object Model (POM) and creating reusable utility functions, which improved script maintainability and reduced test creation time by 30%.
+          - Mentored junior SDETs on Python automation best practices and conducted rigorous code reviews, improving team-wide code quality and framework consistency.
+          - Played a key role in validating a complex data migration from a legacy system to a new microservices architecture, ensuring data integrity and zero downtime.
+
+      - company: Capgemini
+        position: SDET Trainee
+        date:
+        start_date: 2021-08
+        end_date: 2022-01
+        location:
+        summary:
+        highlights:
+          - Completed intensive training focused on Python-based test automation, including hands-on projects with Selenium, Pytest principles, and Agile methodologies.
+          - Contributed to client project in test planning, case design, documentation, and execution.
+    education:
+      - institution: SKN Sinhagad Institute of Technology and Science (Pune)
+        area: Mechanical Engineering
+        degree: Bachelors in Engineering
+        date:
+        start_date: 2016-08
+        end_date: 2020-09
+        location: Pune, IN
+        summary: CGPA - 8.33
+        highlights:
+    Achievements:
+      - label: Certifications
+        details: '[PSM I - Scrum.org](https://drive.google.com/file/d/1YBgERJLMjptMqPFFC1ljwKDounLrExY5/view), [Selenium Webdriver with PYTHON from Scratch + Frameworks](https://www.udemy.com/certificate/UC-8a1719a3-edb2-4db6-a990-210615d9f3aa/)'
+      - label: Awards
+        details: '[Certificate of Appreciation](https://drive.google.com/file/d/1fXg38G8x78WyMi1pISv_POwKK-B7-u13/view)'
 
 design:
   theme: classic
