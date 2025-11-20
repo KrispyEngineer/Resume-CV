@@ -1,0 +1,43 @@
+Job Function, Roles &amp; Responsibilities:
+● Design, develop, and maintain automated test frameworks and scripts, web, mobile, and API testing
+● Ensure the automation frameworks are scalable, maintainable, and reusable
+● Stay current with industry trends and best practices in automation testing and QA methodologies
+● Review &amp; Documentation - Test Plan &amp; Test Cases
+● Experience with CI/CD tools such as Jenkins, Git, or similar.
+● Work closely with cross-functional teams including developers, product managers, and other QA engineers to
+ensure comprehensive test coverage.
+● Participate in design and code reviews to provide a QA perspective
+● Analyze test results, identify defects, and work with development teams to resolve issues.
+● Generate test reports and metrics to track the quality and coverage of the automation suite.
+Technical Skills:
+MUST have:
+
+● In-depth understanding of Test Methodologies, SDLC (Waterfall, Agile), STLC, Bug Life Cycle
+● Hands-on experience in different techniques of Black Box Testing
+● Hands-on experience in using various Test Management Tools and Bug Tracking Tools (e.g., TestRail, HP ALM) in
+test report generation
+● Experience in Embedded firmware and hardware testing
+● Expertise in Python-based development
+- Understanding of data structures like lists, dictionaries, tuples, and set
+- Various programming techniques like list comprehension, list slicing, shallow &amp; deep copy, eval/exec
+- regex &amp; lambda, modules &amp; packages
+- automation of remote data processing using modules like pexpect or any such tool
+- Parsing input files like Excel, XML, HTML, CSV, etc (any one or more)
+● Hands-on experience &amp; understanding of one or more Automation frameworks like Robot, GTest, py.test, etc.
+● Understanding of various test metrics and reports
+NICE to have:
+● Knowledge of the following tools: Jmeter, SoupUI / Postman, Appium, QTP, Selenium
+● Debugging tools: Oscilloscope, Logic analyzer, GDB, PDB, Wireshark, Ixia, Spirent, Vectorcast, GTest, Monkey
+runner
+● Experience with performance testing tools like JMeter or LoadRunner.
+● Knowledge of BDD/TDD practices and tools like Cucumber or SpecFlow.
+● Understanding of cloud-based testing environments and tools.
+● Networking protocol, Devices, and application / L2-L3 testing with hands-on experience on tools like Ixia, Spirent,
+Wireshark, WireEdit
+● Certification in automation testing (e.g., ISTQB Advanced Level - Test Automation Engineer).
+● Familiarity with CI/CD pipelines and DevOps practices.
+● Experience with IoT, Thread, Azure, Nest, Apple Home Kit, etc.
+Soft Skills:
+● Good communication and Interpersonal skills
+● Strong analytical and problem-solving skills.
+● Detail-oriented with a commitment to quality and precision
