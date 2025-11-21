@@ -3,25 +3,25 @@
 
 #let name = "Piyush Patil"
 #let locale-catalog-page-numbering-style = context { "Piyush Patil - Page " + str(here().page()) + " of " + str(counter(page).final().first()) + "" }
-#let locale-catalog-last-updated-date-style = "Last updated in Nov 2025"
+#let locale-catalog-last-updated-date-style = "Last updated in June 2025"
 #let locale-catalog-language = "en"
 #let design-page-size = "us-letter"
-#let design-section-titles-font-size = 1.4em
+#let design-section-titles-font-size = 1.3em
 #let design-colors-text = rgb(0, 0, 0)
 #let design-colors-section-titles = rgb(0, 79, 144)
 #let design-colors-last-updated-date-and-page-numbering = rgb(128, 128, 128)
 #let design-colors-name = rgb(0, 79, 144)
 #let design-colors-connections = rgb(0, 79, 144)
 #let design-colors-links = rgb(0, 79, 144)
-#let design-section-titles-font-family = "Source Sans 3"
+#let design-section-titles-font-family = "New Computer Modern"
 #let design-section-titles-bold = true
 #let design-section-titles-line-thickness = 0.5pt
-#let design-section-titles-font-size = 1.4em
+#let design-section-titles-font-size = 1.3em
 #let design-section-titles-type = "with-parial-line"
 #let design-section-titles-vertical-space-above = 0.5cm
 #let design-section-titles-vertical-space-below = 0.3cm
 #let design-section-titles-small-caps = false
-#let design-links-use-external-link-icon = true
+#let design-links-use-external-link-icon = false
 #let design-text-font-size = 10pt
 #let design-text-leading = 0.6em
 #let design-text-font-family = "Source Sans 3"
@@ -45,17 +45,17 @@
 #let design-highlights-left-margin = 0.4cm
 #let design-highlights-vertical-space-between-highlights = 0.25cm
 #let design-highlights-horizontal-space-between-bullet-and-highlights = 0.5em
-#let design-entries-vertical-space-between-entries = 1.2em
+#let design-entries-vertical-space-between-entries = 1.1em
 #let design-entries-date-and-location-width = 4.15cm
 #let design-entries-allow-page-break-in-entries = true
 #let design-entries-horizontal-space-between-columns = 0.1cm
 #let design-entries-left-and-right-margin = 0.2cm
-#let design-page-top-margin = 2cm
-#let design-page-bottom-margin = 2cm
-#let design-page-left-margin = 2cm
-#let design-page-right-margin = 2cm
-#let design-page-show-last-updated-date = true
-#let design-page-show-page-numbering = true
+#let design-page-top-margin = 1cm
+#let design-page-bottom-margin = 1cm
+#let design-page-left-margin = 1cm
+#let design-page-right-margin = 1cm
+#let design-page-show-last-updated-date = false
+#let design-page-show-page-numbering = false
 #let design-links-underline = false
 #let design-entry-types-education-entry-degree-column-width = 1cm
 #let date = datetime.today()
@@ -486,10 +486,10 @@
 
 #two-col-entry(
   left-content: [
-    #strong[Capgemini], Associate Consultant\/Senior SDET
+    #strong[Associate Consultant\/Senior SDET], Capgemini
   ],
   right-content: [
-    Feb 2023 – Jan 2024
+    #emph[Feb 2023 – Jan 2024]
   ],
 )
 #one-col-entry(
@@ -503,10 +503,10 @@
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #strong[Capgemini], SDET
+    #strong[SDET], Capgemini
   ],
   right-content: [
-    Aug 2021 – Jan 2023
+    #emph[Aug 2021 – Jan 2023]
   ],
 )
 #one-col-entry(
@@ -520,10 +520,10 @@
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #strong[Capgemini], SDET Trainee
+    #strong[SDET Trainee], Capgemini
   ],
   right-content: [
-    Aug 2021 – Jan 2022
+    #emph[Aug 2021 – Jan 2022]
   ],
 )
 #one-col-entry(
@@ -537,21 +537,28 @@
 == Education
 
 
-// YES DATE, YES DEGREE
-#three-col-entry(
-  left-column-width: 1cm,
-  left-content: [#strong[Bachelors in Engineering]],
-  middle-content: [
-    #strong[SKN Sinhagad Institute of Technology and Science \(Pune\)], Mechanical Engineering
-    #v(-design-text-leading)
+// YES DATE, NO DEGREE
+#two-col-entry(
+  left-content: [
+    #strong[SKN Sinhagad Institute of Technology and Science]
 
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [CGPA - 8.33])], column-gutter: 0cm)
+Bachelors in Engineering in Mechanical Engineering
   ],
   right-content: [
-    Pune, IN
+    #emph[Pune, IN]
 
-Aug 2016 – Sept 2020
+#emph[Aug 2016 – Sept 2020]
   ],
+)
+#block(
+  [
+    #set par(spacing: 0pt)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [CGPA - 8.33])], column-gutter: 0cm)
+  ],
+  inset: (
+    left: design-entries-left-and-right-margin,
+    right: design-entries-left-and-right-margin,
+  ),
 )
 
 
