@@ -6,7 +6,6 @@
 #let locale-catalog-last-updated-date-style = "Last updated in June 2025"
 #let locale-catalog-language = "en"
 #let design-page-size = "us-letter"
-#let design-section-titles-font-size = 1.3em
 #let design-colors-text = rgb(0, 0, 0)
 #let design-colors-section-titles = rgb(0, 79, 144)
 #let design-colors-last-updated-date-and-page-numbering = rgb(128, 128, 128)
@@ -17,7 +16,7 @@
 #let design-section-titles-bold = true
 #let design-section-titles-line-thickness = 0.5pt
 #let design-section-titles-font-size = 1.3em
-#let design-section-titles-type = "with-parial-line"
+#let design-section-titles-type = "with-partial-line"
 #let design-section-titles-vertical-space-above = 0.5cm
 #let design-section-titles-vertical-space-below = 0.3cm
 #let design-section-titles-small-caps = false
@@ -32,6 +31,7 @@
 #let design-header-name-font-family = "Source Sans 3"
 #let design-header-name-font-size = 30pt
 #let design-header-name-bold = true
+#let design-header-small-caps-for-name = false
 #let design-header-connections-font-family = "Source Sans 3"
 #let design-header-vertical-space-between-name-and-connections = 0.7cm
 #let design-header-vertical-space-between-connections-and-first-section = 0.7cm
@@ -41,6 +41,7 @@
 #let design-header-alignment = center
 #let design-highlights-summary-left-margin = 0cm
 #let design-highlights-bullet = "•"
+#let design-highlights-nested-bullet = "-"
 #let design-highlights-top-margin = 0.25cm
 #let design-highlights-left-margin = 0.4cm
 #let design-highlights-vertical-space-between-highlights = 0.25cm
@@ -125,13 +126,22 @@
   )
 }
 #show list: set list(
-  marker: design-highlights-bullet,
-  spacing: 0pt,
+  marker: design-highlights-nested-bullet,
+  spacing: design-highlights-vertical-space-between-highlights,
   indent: 0pt,
   body-indent: design-highlights-horizontal-space-between-bullet-and-highlights,
 )
 
 // Entry utilities:
+#let bullet-entry(..content) = {
+  list(
+    ..content,
+    marker: design-highlights-bullet,
+    spacing: 0pt,
+    indent: 0pt,
+    body-indent: design-highlights-horizontal-space-between-bullet-and-highlights,
+  )
+}
 #let three-col(
   left-column-width: 1fr,
   middle-column-width: 1fr,
@@ -192,7 +202,11 @@
     size: design-header-name-font-size,
     fill: design-colors-name,
   )
-  #it.body
+  #if design-header-small-caps-for-name [
+    #smallcaps(it.body)
+  ] else [
+    #it.body
+  ]
   // Vertical space after the name
   #v(design-header-vertical-space-between-name-and-connections)
 ]
@@ -243,7 +257,7 @@
         #box(
           [
             #section-title
-            #if design-section-titles-type == "with-parial-line" [
+            #if design-section-titles-type == "with-partial-line" [
               #box(width: 1fr, height: design-section-titles-line-thickness, fill: design-colors-section-titles)
             ] else if design-section-titles-type == "with-full-line" [
 
@@ -465,7 +479,7 @@
 
 
 #one-col-entry(
-  content: [SDET with 4+ years of experience in automation, API testing, and performance engineering. Skilled in building robust Python-based test frameworks using Selenium, Pytest, Locust, and Postman. Strong expertise integrating automation into CI\/CD pipelines using Newman and GitHub Actions, including parallel execution and automated rollback mechanisms. Experienced in leveraging AI-driven automation generation using Copilot + Playwright MCP.]
+  content: [Accomplished Quality Assurance Engineer with comprehensive experience in manual and automated testing for web applications and backend systems. Proven ability to design and execute robust test strategies within fast-paced Agile\/Scrum environments. Expertise in API testing, CI\/CD integration, and collaborating with cross-functional teams to ensure product quality and drive continuous improvement. Skilled in leveraging tools like Selenium, Playwright, Postman, and JIRA to enhance testing efficiency and release reliability.]
 )
 
 
@@ -473,11 +487,11 @@
 
 
 #one-col-entry(
-  content: [#strong[Technical:] Python, JavaScript, bash, Selenium, Playwright, Pytest, Locust, API Testing \(Postman-Newman\), SQL, Jenkins, Bitbucket, GitHub, New Relic, CI\/CD Pipelines, JIRA, GitHub Actions, Copilot]
+  content: [#strong[QA Processes & Methodologies:] Test Strategy & Planning, Manual & Exploratory Testing, Regression Testing, Defect Lifecycle Management, Risk Analysis, Agile\/Scrum Methodologies, Stakeholder Collaboration, Test Case Design & Execution]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Other:] Test Design & Planning, API Testing, Performance\/Load Testing, Defect Management, Requirement Analysis, Version Control, Agile Methodologies]
+  content: [#strong[Technical:] Python, JavaScript, Selenium, Playwright, API Testing \(Postman, Newman\), Pytest, Locust, CI\/CD Pipelines \(GitHub Actions, adaptable to Jenkins\), JIRA, Zephyr, SQL, Git, New Relic]
 )
 
 
@@ -494,9 +508,9 @@
 )
 #one-col-entry(
   content: [
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Enterprise Application \[Restaurant Retail Info Management\]- Greenfield Project])], column-gutter: 0cm)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Enterprise Application \[Restaurant Retail Info Management\] - Greenfield Project])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Built and automated REST API test suites using Postman–Newman, with full test case documentation in Zephyr and CI\/CD integration in GitHub Actions for automatic runs on every code merge and deployment.],[Improved release reliability by adding MS Teams failure alerts, publishing test artifacts, and implementing an API smoke-test–based deployment rollback.],[Engineered and maintained a robust Web UI automation framework using Selenium and Python with Pytest, achieving comprehensive regression coverage.],[Developed and executed end-to-end load test scripts along with Rest API tests using Locust with Python, using AWS for distributed load generation and Argo CD for automated workflows.],[Monitored infrastructure metrics using New Relic and analyzed response times to report performance insights and bottlenecks to stakeholders.],[Planned testing activities, collaborated with stakeholders for requirement clarity, and executed POCs and research to support high-quality releases aligned with business expectations.],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Led test planning activities, collaborating closely with developers, product owners, and designers to clarify acceptance criteria and define comprehensive test scope.],[Defined and executed the API testing strategy using Postman-Newman, integrating automated suites into GitHub Actions CI\/CD pipelines, which reduced regression testing time by 60\%.],[Engineered a scalable UI automation framework using Selenium and Python with Pytest, achieving 85\% coverage for critical user workflows and ensuring robust regression testing.],[Improved release reliability by implementing automated failure alerts and a smoke-test-based rollback mechanism, effectively communicating deployment risks to the team.],[Conducted end-to-end performance tests using Locust, identifying and reporting critical bottlenecks \(monitored via New Relic\) to improve application response times.],)
   ],
 )
 
@@ -506,14 +520,14 @@
     #strong[SDET], Capgemini
   ],
   right-content: [
-    #emph[Aug 2021 – Jan 2023]
+    #emph[Feb 2022 – Jan 2023]
   ],
 )
 #one-col-entry(
   content: [
     #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Enterprise Application \[Restaurant File Management\]])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Designed and documented test strategies and manual test cases for high-impact features within an Agile sprint-based workflow.],[Played a key role in bug identification and lifecycle management, creating detailed execution and defect dashboards in JIRA for major releases.],[Mentored new hires on product features, test automation fundamentals & conducted code reviews for automation and load testing scripts.],[Executed end-to-end tests for migration from legacy to microservices.],[Implemented reusable page objects, generic locators, and utility functions to improve automation script efficiency by 30\%],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Designed comprehensive test plans, test strategies, and manual test cases for new features within an Agile\/Scrum framework, ensuring thorough requirement coverage in Zephyr.],[Managed the end-to-end defect lifecycle using JIRA, from identification and reporting to resolution, providing detailed defect and test execution dashboards to stakeholders.],[Executed critical end-to-end manual and automated tests for a complex legacy-to-microservices migration project, ensuring data integrity and functional parity.],[Improved automation script efficiency and maintainability by 30\% by implementing reusable page objects and robust locator strategies.],[Mentored new team members on product features and test automation best practices, and conducted peer code reviews to maintain high-quality standards.],)
   ],
 )
 
@@ -528,7 +542,7 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Trained in Python, Selenium, Cucumber, and Agile practices for functional and automation testing.],[Contributed to client project in test planning, case design, documentation, and execution.],)
+    #v(design-highlights-top-margin);#highlights([Completed intensive training in Python, Selenium, and Agile\/Scrum methodologies for both functional and automation testing.],[Contributed to a client project by assisting in test planning, designing and documenting test cases, and executing functional tests.],)
   ],
 )
 
@@ -567,11 +581,11 @@ Bachelors in Engineering in Mechanical Engineering
 
 
 #one-col-entry(
-  content: [#strong[Certifications:] #link("https://drive.google.com/file/d/1YBgERJLMjptMqPFFC1ljwKDounLrExY5/view")[PSM I - Scrum.org], #link("https://www.udemy.com/certificate/UC-8a1719a3-edb2-4db6-a990-210615d9f3aa/")[Selenium Webdriver with PYTHON from Scratch + Frameworks]]
+  content: [#strong[Certifications:] #link("https://drive.google.com/file/d/1YBgERJLMjptMqPFFC1ljwKDounLrExY5/view")[PSM I - Professional Scrum Master \(Scrum.org\)], #link("https://www.udemy.com/certificate/UC-8a1719a3-edb2-4db6-a990-210615d9f3aa/")[Selenium Webdriver with PYTHON from Scratch + Frameworks]]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Awards:] #link("https://drive.google.com/file/d/1fXg38G8x78WyMi1pISv_POwKK-B7-u13/view")[Certificate of Appreciation]]
+  content: [#strong[Awards:] #link("https://drive.google.com/file/d/1fXg38G8x78WyMi1pISv_POwKK-B7-u13/view")[Certificate of Appreciation - Capgemini]]
 )
 
 

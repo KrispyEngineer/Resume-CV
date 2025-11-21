@@ -1,0 +1,33 @@
+Key Responsibilities:
+
+ Planning and executing manual and exploratory tests based on requirements and user stories
+ Collaborating closely with developers, product owners, and designers to ensure a clear understanding of acceptance criteria
+ Reporting and tracking bugs, defects, and issues using defect management tools
+ Defining regression test scope based on quality risks
+ Contributing to regression test suites and supporting test automation efforts
+ Continuously suggesting improvements for product quality and testing practices
+ Monitoring issue severity and communicating risks to the team
+ Staying updated on testing trends and sharing knowledge within the team
+
+
+Requirements
+
+
+Requirements:
+
+ Strong educational qualifications (Engineering majors, MCA from reputed institutes, Masters in Quality Management is preferred) with 4-5 years of experience in software Testing/Quality Assurance/ Automation
+ Excellent written and oral communication skills. Experience working in a development team as quality engineer
+ Experience in QA processes and tools, test management systems, designing and running tests on web applications or backend systems and analysing bugs - Experience with writing and executing manual test cases and plans
+ Ability to work effectively in a fast paced and changing business environment. Flexibility and adaptability are must haves to be successful in this role
+ Excellent interpersonal skills, proven track record of building strong relationships and establishing credibility with key stakeholders across different lines of business and hierarchies
+ Experience in being part of a large-scale software development projects distributed across geographical locations
+ Hands-on experience with Agile/Scrum development processes
+ Knowledge on API testing tools will be an added advantage.(Postman/Neuman/Bruno)
+
+
+Nice to have:
+
+ Hands-on experience with test automation tools (Selenium, Cypress, Playwright, Blueprint, or similar)
+ Knowledge of the main certification methods (ISO, CMMI, etc.) is a plus
+ Functional knowledge of Banking, Finance, Omni-channel Banking, Payments etc
+ Hands on experience in DevOps and different tools used for Code Quality check & Deployment

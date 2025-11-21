@@ -1,3 +1,65 @@
+cv:
+  name: Piyush Patil
+  location: Pune
+  email: piyushpatil617@gmail.com
+  phone: +91-997-059-6397
+  social_networks:
+    - network: LinkedIn
+      username: piyush-patil917
+    - network: GitHub
+      username: KrispyEngineer
+  sections:
+    Summary:
+      - "Accomplished Quality Assurance Engineer with comprehensive experience in manual and automated testing for web applications and backend systems. Proven ability to design and execute robust test strategies within fast-paced Agile/Scrum environments. Expertise in API testing, CI/CD integration, and collaborating with cross-functional teams to ensure product quality and drive continuous improvement. Skilled in leveraging tools like Selenium, Playwright, Postman, and JIRA to enhance testing efficiency and release reliability."
+    skills:
+      - label: QA Processes & Methodologies
+        details: Test Strategy & Planning, Manual & Exploratory Testing, Regression Testing, Defect Lifecycle Management, Risk Analysis, Agile/Scrum Methodologies, Stakeholder Collaboration, Test Case Design & Execution
+      - label: Technical
+        details: Python, JavaScript, Selenium, Playwright, API Testing (Postman, Newman), Pytest, Locust, CI/CD Pipelines (GitHub Actions, adaptable to Jenkins), JIRA, Zephyr, SQL, Git, New Relic
+    experience:
+      - company: Capgemini
+        position: Associate Consultant/Senior SDET
+        start_date: 2023-02
+        end_date: 2024-01
+        summary: Enterprise Application [Restaurant Retail Info Management] - Greenfield Project
+        highlights:
+          - Led test planning activities, collaborating closely with developers, product owners, and designers to clarify acceptance criteria and define comprehensive test scope.
+          - Defined and executed the API testing strategy using Postman-Newman, integrating automated suites into GitHub Actions CI/CD pipelines, which reduced regression testing time by 60%.
+          - Engineered a scalable UI automation framework using Selenium and Python with Pytest, achieving 85% coverage for critical user workflows and ensuring robust regression testing.
+          - Improved release reliability by implementing automated failure alerts and a smoke-test-based rollback mechanism, effectively communicating deployment risks to the team.
+          - Conducted end-to-end performance tests using Locust, identifying and reporting critical bottlenecks (monitored via New Relic) to improve application response times.
+      - company: Capgemini
+        position: SDET
+        start_date: 2022-02
+        end_date: 2023-01
+        summary: Enterprise Application [Restaurant File Management]
+        highlights:
+          - Designed comprehensive test plans, test strategies, and manual test cases for new features within an Agile/Scrum framework, ensuring thorough requirement coverage in Zephyr.
+          - Managed the end-to-end defect lifecycle using JIRA, from identification and reporting to resolution, providing detailed defect and test execution dashboards to stakeholders.
+          - Executed critical end-to-end manual and automated tests for a complex legacy-to-microservices migration project, ensuring data integrity and functional parity.
+          - Improved automation script efficiency and maintainability by 30% by implementing reusable page objects and robust locator strategies.
+          - Mentored new team members on product features and test automation best practices, and conducted peer code reviews to maintain high-quality standards.
+      - company: Capgemini
+        position: SDET Trainee
+        start_date: 2021-08
+        end_date: 2022-01
+        summary:
+        highlights:
+          - Completed intensive training in Python, Selenium, and Agile/Scrum methodologies for both functional and automation testing.
+          - Contributed to a client project by assisting in test planning, designing and documenting test cases, and executing functional tests.
+    education:
+      - institution: SKN Sinhagad Institute of Technology and Science
+        area: Mechanical Engineering
+        degree: Bachelors in Engineering
+        start_date: 2016-08
+        end_date: 2020-09
+        location: Pune, IN
+        summary: CGPA - 8.33
+    Achievements:
+      - label: Certifications
+        details: '[PSM I - Professional Scrum Master (Scrum.org)](https://drive.google.com/file/d/1YBgERJLMjptMqPFFC1ljwKDounLrExY5/view), [Selenium Webdriver with PYTHON from Scratch + Frameworks](https://www.udemy.com/certificate/UC-8a1719a3-edb2-4db6-a990-210615d9f3aa/)'
+      - label: Awards
+        details: '[Certificate of Appreciation - Capgemini](https://drive.google.com/file/d/1fXg38G8x78WyMi1pISv_POwKK-B7-u13/view)'
 
 design:
   theme: classic
